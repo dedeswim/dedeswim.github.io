@@ -10,14 +10,17 @@
 }
 
 .title-container {
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin: auto;
     text-align: center;
-    background-color: rgb(83, 197, 250);
+    background-color: rgba(83, 197, 250, 0.315);
     padding: 2rem;
     border-radius: 0.2rem;
 }
 
 .text-container {
     text-align: center;
+}
+
+.home-header {
+    background-image: url("/res/img/mountain.jpg");
 }
