@@ -1,3 +1,7 @@
+body, html {
+    height: 100%;
+}
+
 .title {
     color: rgb(246, 248, 252);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -10,7 +14,6 @@
 }
 
 .title-container {
-    margin: auto;
     text-align: center;
     background-color: rgba(83, 197, 250, 0.315);
     padding: 2rem;
@@ -22,5 +25,10 @@
 }
 
 .home-header {
-    background-image: url("/res/img/mountain.jpg");
+    height: 100%;
+    background-image: url("res/img/mountain.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
