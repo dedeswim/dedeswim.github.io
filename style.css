@@ -1,0 +1,23 @@
+.title {
+    color: rgb(246, 248, 252);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+}
+
+.paragraph {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+}
+
+.title-container {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    text-align: center;
+    background-color: rgb(83, 197, 250);
+    padding: 2rem;
+    border-radius: 0.2rem;
+}
+
+.text-container {
+    text-align: center;
+}
