@@ -2,36 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-    <url>
-      <loc>https://edoardodebenedetti.me/blog/identita-rubata/</loc>
-      <lastmod>2018-05-26T10:51:39+08:00</lastmod>
-    </url>
+  <url>
+    <loc>https://edoardodebenedetti.me/about/</loc>
+    <lastmod>2018-05-26T10:19:26+08:00</lastmod>
+  </url>
   
-    <url>
-      <loc>https://edoardodebenedetti.me/about/</loc>
-      <lastmod>2018-05-26T10:19:26+08:00</lastmod>
-    </url>
+  <url>
+    <loc>https://edoardodebenedetti.me/categories/</loc>
+    <priority>0</priority>
+  </url>
   
-    <url>
-      <loc>https://edoardodebenedetti.me/blog/</loc>
-      <lastmod>2018-05-26T10:51:39+08:00</lastmod>
-      <priority>0</priority>
-    </url>
+  <url>
+    <loc>https://edoardodebenedetti.me/tags/</loc>
+    <priority>0</priority>
+  </url>
   
-    <url>
-      <loc>https://edoardodebenedetti.me/categories/</loc>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-      <loc>https://edoardodebenedetti.me/</loc>
-      <lastmod>2018-05-26T10:51:39+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-      <loc>https://edoardodebenedetti.me/tags/</loc>
-      <priority>0</priority>
-    </url>
+  <url>
+    <loc>https://edoardodebenedetti.me/</loc>
+    <lastmod>2018-05-26T10:19:26+08:00</lastmod>
+    <priority>0</priority>
+  </url>
   
 </urlset>
