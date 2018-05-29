@@ -204,18 +204,26 @@ img {
     .navigation a {
         font-size: 1.4rem
     }
+
 }
 
 .navigation ul {
     list-style: none;
     margin-bottom: 0;
-    margin-top: 0
+    margin-top: 0;
+}
+
+@media only screen and (min-device-width: 320px)and (max-device-width: 480px) {
+    .navigation ul {
+        margin-top: 2rem;
+    }
+
 }
 
 .navigation ul li {
     float: left;
     margin: 0;
-    position: relative
+    position: relative;
 }
 
 .navigation ul li a {
@@ -452,4 +460,8 @@ img {
 
 .float-left {
     float: left
+}
+
+.post nav {
+    display: none;
 }
