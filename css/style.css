@@ -26,13 +26,14 @@ body {
 }
 
 a {
-    font-weight: 700;
-    color: #000;
+    font-weight: 300;
+    color: #01579b;
     text-decoration: none
 }
 
 a:focus, a:hover {
-    text-decoration: underline
+    text-decoration: underline;
+    color: #ffd600;
 }
 
 p {
@@ -341,8 +342,9 @@ img {
 }
 
 .centered .about {
-    text-align: center
+    text-align: center;
 }
+
 
 .centered .about h1 {
     margin-top: 2rem;
@@ -413,6 +415,17 @@ img {
     font-size: 1.6rem
 }
 
+.centered .about a {
+    color: #ffd600;
+    
+}
+
+.centered .about a:hover {
+    color: #81d4fa;
+    
+}
+
+
 @media only screen and (min-device-width: 320px)and (max-device-width: 480px) {
     .centered .about ul li a {
         font-size: 1.4rem
@@ -448,10 +461,14 @@ img {
 }
 
 .footer {
-    height: 6rem;
-    width: 100%;
     text-align: center;
     line-height: 6rem
+}
+
+.footer .email {
+    margin-top: -3rem;
+    font-size: 1.1rem;
+    font: normal;
 }
 
 .float-right {
