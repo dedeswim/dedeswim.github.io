@@ -18,7 +18,7 @@ body {
     line-height: 1.8em
 }
 
-@media only screen and (min-device-width: 320px)and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px) {
     body {
         font-size: 1.4em;
         line-height: 1.6em
@@ -33,7 +33,7 @@ a {
 
 a:focus, a:hover {
     text-decoration: underline;
-    color: #c68400;
+    color: #ff8f00;
 }
 
 p {
@@ -64,7 +64,7 @@ h1 {
     line-height: 3.2rem
 }
 
-@media only screen and (min-device-width: 320px)and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px) {
     h1 {
         font-size: 2.8rem;
         line-height: 2.8rem
@@ -76,7 +76,7 @@ h2 {
     line-height: 2.8rem
 }
 
-@media only screen and (min-device-width: 320px)and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px) {
     h2 {
         font-size: 2.4rem;
         line-height: 2.4rem
@@ -88,7 +88,7 @@ h3 {
     line-height: 2.4rem
 }
 
-@media only screen and (min-device-width: 320px)and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px) {
     h3 {
         font-size: 2rem;
         line-height: 2rem
@@ -100,7 +100,7 @@ h4 {
     line-height: 2.2rem
 }
 
-@media only screen and (min-device-width: 320px)and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px) {
     h4 {
         font-size: 1.8rem;
         line-height: 1.8rem
@@ -112,7 +112,7 @@ h5 {
     line-height: 2rem
 }
 
-@media only screen and (min-device-width: 320px)and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px) {
     h5 {
         font-size: 1.6rem;
         line-height: 1.6rem
@@ -202,7 +202,7 @@ img {
     letter-spacing: .1rem
 }
 
-@media only screen and (min-device-width: 320px)and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px) {
     .navigation a {
         font-size: 1.4rem
     }
@@ -215,7 +215,7 @@ img {
     margin-top: 0;
 }
 
-@media only screen and (min-device-width: 320px)and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px) {
     .navigation ul {
         margin-top: 2rem;
     }
@@ -235,8 +235,6 @@ img {
 
 .content {
     flex: 1;
-    margin-top: 1.6rem;
-    margin-bottom: 3.2rem
 }
 
 .content article header {
@@ -254,7 +252,7 @@ img {
     color: #323232
 }
 
-@media only screen and (min-device-width: 320px)and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px) {
     .content article header h2 {
         font-size: 1.6rem
     }
@@ -270,7 +268,7 @@ img {
     font-size: 1.6rem
 }
 
-@media only screen and (min-device-width: 320px)and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px) {
     .list ul li {
         font-size: 1.4rem;
         margin: 1.6rem 0 1.6rem 0
@@ -284,7 +282,7 @@ img {
     margin-right: 3rem
 }
 
-@media only screen and (min-device-width: 320px)and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px) {
     .list ul li span {
         display: block;
         text-align: left
@@ -388,7 +386,7 @@ img {
     50% { border-color: #01579b; }
 }
 
-@media only screen and (min-device-width: 320px)and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px) {
     .centered .about h1 {
         margin-top: 2rem;
         margin-bottom: .5rem;
@@ -426,7 +424,7 @@ img {
     text-transform: uppercase;
     margin-left: 1rem;
     margin-right: 1rem;
-    font-size: 1.6rem
+    font-size: 1.6rem;
 }
 
 .centered .about a {
@@ -440,7 +438,7 @@ img {
 }
 
 
-@media only screen and (min-device-width: 320px)and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px) {
     .centered .about ul li a {
         font-size: 1.4rem
     }
@@ -456,7 +454,7 @@ img {
     font-size: 4.6rem
 }
 
-@media only screen and (min-device-width: 320px)and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px) {
     .centered .error h1 {
         font-size: 3.2rem
     }
@@ -468,7 +466,7 @@ img {
     font-size: 3.2rem
 }
 
-@media only screen and (min-device-width: 320px)and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px) {
     .centered .error h2 {
         font-size: 2.8rem
     }
@@ -479,6 +477,10 @@ img {
     line-height: 6rem
 }
 
+.footer .email {   
+    margin-top: -3rem;
+}
+
 .footer .email a {   
     color: #01579b;
 }
@@ -487,7 +489,7 @@ img {
     color: #ff8f00;
 }
 
-@media only screen and (min-device-width: 320px)and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px) {
     .footer .email a {
         font-size: 0.8em;
         line-height: 1.6em
