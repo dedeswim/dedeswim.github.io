@@ -479,14 +479,23 @@ img {
     line-height: 6rem
 }
 
-.footer .email {
-    margin-top: -3rem;
-    font-size: 1.0rem;
-    font: normal;
+.footer .email a {   
+    color: #01579b;
+}
+
+.footer .email a:hover {     
+    color: #ff8f00;
+}
+
+@media only screen and (min-device-width: 320px)and (max-device-width: 480px) {
+    .footer .email a {
+        font-size: 0.8em;
+        line-height: 1.6em
+    }
 }
 
 .float-right {
-    float: right
+    float: right;
 }
 
 .float-left {
