@@ -33,16 +33,17 @@ a {
 
 a:focus, a:hover {
     text-decoration: underline;
-    color: #ffd600;
+    color: #c68400;
 }
 
 p {
-    margin: 1.6rem 0 1.6rem 0
+    margin: 1.6rem 0 1.6rem 0;
+    color: #102027;
 }
 
 p a {
     font-weight: 400;
-    color: #000;
+    color: #102027;
     text-decoration: underline;
     text-underline-position: under
 }
@@ -52,7 +53,7 @@ p a:focus, p a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #000;
+    color: #102027;
     text-transform: uppercase;
     letter-spacing: .0625em;
     margin: 3.2rem 0 1.6rem 0
@@ -359,10 +360,17 @@ img {
     border-right: .15em solid #01579b;
     white-space: nowrap;
     margin: 0 auto;
-    letter-spacing: .15em;
+    letter-spacing: .10em;
     animation: 
         typing 3.5s steps(40, end),
         blink-caret .75s step-end infinite;
+}
+
+.centered .about p {
+    margin-top: -0.2rem;
+    margin-bottom: .5rem;
+    overflow: hidden;
+    font-size: 1.0rem;
 }
 
 /* Typewriter effect */
@@ -388,7 +396,13 @@ img {
     }
 
     .centered .about h2 {
-        font-size: 1.2rem;
+        
+        border-right: .0;
+        font-size: 1rem;
+    }
+
+    .centered .about p {
+        font-size: 0.7rem;
     }
 }
 
@@ -416,12 +430,12 @@ img {
 }
 
 .centered .about a {
-    color: #ffd600;
+    color: #ffc107;
     
 }
 
 .centered .about a:hover {
-    color: #81d4fa;
+    color: #ff8f00;
     
 }
 
