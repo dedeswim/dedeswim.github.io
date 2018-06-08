@@ -191,7 +191,14 @@ img {
 
 .navigation {
     height: 6rem;
-    width: 100%
+    width: 100%;
+    position: fixed;
+    background-color: #fefefe;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navigation-placeholder {
+    height: 6rem;
 }
 
 .navigation a {
