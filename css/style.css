@@ -189,7 +189,7 @@ img {
     padding-right: 2rem
 }
 
-.navigation {
+/* .navigation {
     height: 6rem;
     width: 100%;
     position: fixed;
@@ -199,7 +199,7 @@ img {
 
 .navigation-placeholder {
     height: 6rem;
-}
+} */
 
 .navigation a {
     display: inline;
@@ -253,10 +253,8 @@ img {
     margin: 0
 }
 
-.content article header h2 {
-    margin-top: 1rem;
-    font-size: 1.8rem;
-    color: #323232
+.content article img {
+    margin: auto;
 }
 
 @media only screen and (max-device-width: 480px) {
