@@ -189,22 +189,9 @@ img {
     padding-right: 2rem
 }
 
-/* .navigation {
-    height: 6rem;
-    width: 100%;
-    position: fixed;
-    background-color: #fefefe;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-}
-
-.navigation-placeholder {
-    height: 6rem;
-} */
-
 .navigation a {
     display: inline;
     font-size: 1.6rem;
-    text-transform: uppercase;
     line-height: 6rem;
     letter-spacing: .1rem
 }
@@ -230,6 +217,7 @@ img {
 }
 
 .navigation ul li {
+    text-transform: uppercase;
     float: left;
     margin: 0;
     position: relative;
@@ -238,6 +226,10 @@ img {
 .navigation ul li a {
     margin-left: 1rem;
     margin-right: 1rem
+}
+
+.navigation-title a {
+    text-transform: lowercase;
 }
 
 .content {
@@ -351,21 +343,23 @@ img {
 
 
 .centered .about h1 {
+    text-transform: lowercase;
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-size: 4rem;
 }
 
 .centered .about h2 {
+    font-size: 2.4rem;
+    text-transform: lowercase;
     margin-top: 1rem;
-    margin-bottom: .5rem;
+    margin-bottom: 1.5rem;
     overflow: hidden;
     border-right: .15em solid #01579b;
     white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: .10em;
+    letter-spacing: .1em;
     animation: 
-        typing 3.5s steps(40, end),
+        typing 2.5s steps(40, end),
         blink-caret .75s step-end infinite;
 }
 
