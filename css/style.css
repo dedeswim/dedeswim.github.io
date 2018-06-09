@@ -512,3 +512,32 @@ img {
 .post nav {
     display: none;
 }
+
+input[type=text], input[type=email], select, textarea {
+    width: 30%;
+    padding: 12px;
+    border: 0;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: #01579b;
+    color: white;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #ff8f00;
+}
+
+@media only screen and (max-device-width: 480px) {
+    input[type=text], input[type=email], select, textarea {
+        width: 100%;
+    }
+}
