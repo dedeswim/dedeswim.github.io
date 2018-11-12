@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/dedeswim
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://edoardodebenedetti.me
+  * I am dedeswim (https://keybase.io/dedeswim) on keybase.
+  * I have a public key ASDqk9ZjFdn4aRMKFtb7sB_TGQB_0zDPkxWOhsbguIhe0go
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120ea93d66315d9f869130a16d6fbb01fd319007fd330cf93158e86c6e0b8885ed20a",
+      "host": "keybase.io",
+      "kid": "0120ea93d66315d9f869130a16d6fbb01fd319007fd330cf93158e86c6e0b8885ed20a",
+      "uid": "1079327d8d0a550317038ff18a639819",
+      "username": "dedeswim"
+    },
+    "merkle_root": {
+      "ctime": 1542044609,
+      "hash": "28302a1e8f2576000543046817ae5123c34787b30f280df668c88cca8b9b870ce6f120c0953fd84d738ec5f01a556b1f021d8e2b8da01e3aaefc4174179de1b7",
+      "hash_meta": "06f6b53fcbf871b38d10f01ed6225a4a5eacb93e72a7e765afeda5ee9346b3a0",
+      "seqno": 3939806
+    },
+    "service": {
+      "entropy": "j4AoDDA5kWiE8uY/Qgt045fV",
+      "hostname": "edoardodebenedetti.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.9.0"
+  },
+  "ctime": 1542044625,
+  "expire_in": 504576000,
+  "prev": "7056c047a74d0137194eaeb5cfec8076628a1562a142b24838ab20ada05aa5a3",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg6pPWYxXZ+GkTChbW+7Af0xkAf9Mwz5MVjobG4LiIXtIKp3BheWxvYWTESpcCCsQgcFbAR6dNATcZTq61z+yAdmKKFWKhQrJIOKsgraBapaPEID/Fsw6zPRhUIn/KU1/1J/zk4uTHNHxI7MVMUxwqnONBAgHCo3NpZ8RAgXexZ4drlaIQ0Wx/hsnKtEmYxfU6rwAGllcmSrc8Ukd2ikpcJEJ7wu8BjL8ZdHPK4IMslSLHfWrdZzSkXSt6AKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBUMea/lf9u7i/229xLk4W8stNXtVqczPmQCZ1d/7iQLo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dedeswim
+
+==================================================================
