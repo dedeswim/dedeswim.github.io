@@ -319,24 +319,6 @@ img {
     justify-content: center
 }
 
-.opacity {
-    height: 100%;
-    background-color: rgba(134, 171, 196, 0.5);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.home {
-    height: 100%;
-    background-image: url("/res/img/great-wall.jpg");
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
 .centered .about {
     text-align: center;
 }
@@ -534,4 +516,20 @@ input[type=submit]:hover {
     input[type=text], input[type=email], select, textarea {
         width: 100%;
     }
+}
+
+.home, .opacity {
+    height: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.home {
+    background-image: url("/res/img/great-wall.jpg");
+}
+
+.opacity {
+    background-color: rgba(134, 171, 196, 0.5);
 }
