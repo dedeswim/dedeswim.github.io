@@ -6,47 +6,66 @@ I hereby claim:
 
   * I am an admin of https://edoardodebenedetti.me
   * I am dedeswim (https://keybase.io/dedeswim) on keybase.
-  * I have a public key ASDqk9ZjFdn4aRMKFtb7sB_TGQB_0zDPkxWOhsbguIhe0go
+  * I have a public key with fingerprint 8E81 5ED3 DA2C 13ED 56D1  6A54 FE03 2FA8 D678 0AC5
 
 To do so, I am signing this object:
 
 {
   "body": {
     "key": {
-      "eldest_kid": "0120ea93d66315d9f869130a16d6fbb01fd319007fd330cf93158e86c6e0b8885ed20a",
+      "eldest_kid": "01201400c1b87a0dbf0d6704298f743b79ac7177f43f8cc271acb420cfaad3f703d70a",
+      "fingerprint": "8e815ed3da2c13ed56d16a54fe032fa8d6780ac5",
       "host": "keybase.io",
-      "kid": "0120ea93d66315d9f869130a16d6fbb01fd319007fd330cf93158e86c6e0b8885ed20a",
+      "key_id": "fe032fa8d6780ac5",
+      "kid": "010148fb9a368f714337d150faa7724868d8840b63ad5ad082673549b1aa3f18c8900a",
       "uid": "1079327d8d0a550317038ff18a639819",
       "username": "dedeswim"
     },
-    "merkle_root": {
-      "ctime": 1542044609,
-      "hash": "28302a1e8f2576000543046817ae5123c34787b30f280df668c88cca8b9b870ce6f120c0953fd84d738ec5f01a556b1f021d8e2b8da01e3aaefc4174179de1b7",
-      "hash_meta": "06f6b53fcbf871b38d10f01ed6225a4a5eacb93e72a7e765afeda5ee9346b3a0",
-      "seqno": 3939806
-    },
     "service": {
-      "entropy": "j4AoDDA5kWiE8uY/Qgt045fV",
       "hostname": "edoardodebenedetti.me",
       "protocol": "https:"
     },
     "type": "web_service_binding",
-    "version": 2
+    "version": 1
   },
-  "client": {
-    "name": "keybase.io go client",
-    "version": "2.9.0"
-  },
-  "ctime": 1542044625,
-  "expire_in": 504576000,
-  "prev": "7056c047a74d0137194eaeb5cfec8076628a1562a142b24838ab20ada05aa5a3",
-  "seqno": 10,
+  "ctime": 1574934986,
+  "expire_in": 157680000,
+  "prev": "d623b87aacf3f7813953e4b7bc1c2dcf92f74828642f3eac0ee3fe11cdcc720e",
+  "seqno": 39,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg6pPWYxXZ+GkTChbW+7Af0xkAf9Mwz5MVjobG4LiIXtIKp3BheWxvYWTESpcCCsQgcFbAR6dNATcZTq61z+yAdmKKFWKhQrJIOKsgraBapaPEID/Fsw6zPRhUIn/KU1/1J/zk4uTHNHxI7MVMUxwqnONBAgHCo3NpZ8RAgXexZ4drlaIQ0Wx/hsnKtEmYxfU6rwAGllcmSrc8Ukd2ikpcJEJ7wu8BjL8ZdHPK4IMslSLHfWrdZzSkXSt6AKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBUMea/lf9u7i/229xLk4W8stNXtVqczPmQCZ1d/7iQLo3RhZ80CAqd2ZXJzaW9uAQ==
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.3
+Comment: https://keybase.io/crypto
+
+yMN4AnicbZJ9TFVlHMfvFVB5E2dpMafZWWG0u+tz3p9zEwUHIukmzBfmC+JzzvMc
+OF6493LOARR8WYA2VxIhJeYymU18aa1CLUcu9XoVcY1mSIWkVNoMrCma+TKo5zD9
+r+efZ89v39/39/n9fs/ZxChXnHskatbBnvVxEffF0y3lroJruzurGTWINzC+asZP
+Ri9SgollF/oNzPgYwHKAFQDQWBXKCGBVB1iSgcApUJcFXpUVpMmsLOsCr0NN42QW
+aarAAU1HCPO6DHgsA8R4GN0IFBEzZBoBm9pCAlmRYB4jTmN5gkUJsxISBZ0AntMR
+pDUgQJpIE4uDlpNB4VRkEa8RpDH6KBzF+x/9U26KDXVVQbxESVmB52XMioBiyTIn
+QAliCAWgSjzCIsIAcpLMi4KisgjxOgs1qIBR7vJROxbICs/JGGKARBHwLG0M6lSH
+JF6BrOIILWIGUCmhakzoBCuNUmaTh6HRCkMjzmCdTp4oCA4iEwcxUUmAim3b8NK4
+hwmZQTuoBUuopNi2Q5bPsbA3hJycSqIWPnErVI0ApgOlGRXEtIxggPGxVKnZhmPP
+irKg8IICJQ9D1ocMkxQagdGwBAE9Th1S4YBKHO/sFWk63RVkeUXkiaDKqsZqHNZ0
+haNLhhyUBE7nCdIAIbxOWFbDmiZzwCG2SFkgyPh4hXKiIuppGUUBZJebhNl05vTq
+aJc7zjU2Zozz01xxsROf/r/6nya6vnqp7aQ/klvVPyfr4oHBtHtp7ybUJmeuDdcd
+/OZx+MKY66tWbNvVl3irc8/djZx/6r77057fP7ZsR+ohl9+bvSb3ssnwS9a3ZGzJ
+WTZZ7dmwV27OSh5wJw43JndY1vSBnb81ZaU92mrGjI0MZ6a8eQimPtdj6X82jq9G
+oKHvxdihYmVtWsdD+NfRCeXJ9qz07tJlGcyZTx4PpWTFx9f9/F7ZphND56Lnb4nc
+WPJPweDyVShHHtm+KG5hRzEzUn62rH/lupM5l3yL7vSb0REY2PXL1fTKucdGQsui
+xhQv9aTkzzvu/vD4xqLshpnxd249fi296Ws7U2gtnKKtXHOqauuC8N7uzekNi7+o
+7z6QkzQ+vPC2UtvaJXU178xovPBtS2rBXBMcX/3WthlgZO3VjcNlM4y8l+d+8Jmy
++aL+5XDHisbwqmtvVFde4R4mGa+caa766M6PPzQmLnY3J9S+PUt7UDs7La5EPPx6
+TQs+v79Bn5x39EB7q1E3eMw7//z2ajHfuhepXz7on1N16tWhznbki5EefQ8z+z7+
+o+MoHnd5wuE9+99xnQjvupFdWpM67d/ddTM7m2d7tlzvPTe160Fs/rpJNd8lLJ10
+0xtpj//8VP8ib16ydem269feC0faQELvs9NmtzH36/s+3T5Q0nQTTC954f2kI2zU
+gwW/j9v3zJXe3JS/90652xTFxkrz/gMijb9h
+=M30i
+-----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
@@ -54,3 +73,4 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/dedeswim
 
 ==================================================================
+
