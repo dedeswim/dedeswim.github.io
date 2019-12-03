@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on edoardo_debenedetti</title>
-    <link>https://edoardodebenedetti.me/categories/</link>
-    <description>Recent content in Categories on edoardo_debenedetti</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <title>Categories | Edoardo Debenedetti</title>
+    <link>/categories/</link>
+      <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Edoardo Debenedetti, 2019. This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Categories</title>
+      <link>/categories/</link>
+    </image>
     
-	<atom:link href="https://edoardodebenedetti.me/categories/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>Demo</title>
+      <link>/categories/demo/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/categories/demo/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

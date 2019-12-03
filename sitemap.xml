@@ -1,37 +1,179 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://edoardodebenedetti.me/posts/cronaca-di-una-identita-rubata/</loc>
-    <lastmod>2018-05-27T11:08:03+08:00</lastmod>
+    <loc>/courses/example/example1/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://edoardodebenedetti.me/about/</loc>
-    <lastmod>2018-05-26T10:19:26+08:00</lastmod>
+    <loc>/courses/example/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://edoardodebenedetti.me/categories/</loc>
-    <priority>0</priority>
+    <loc>/courses/example/example2/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://edoardodebenedetti.me/posts/</loc>
-    <lastmod>2018-05-27T11:08:03+08:00</lastmod>
-    <priority>0</priority>
+    <loc>/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://edoardodebenedetti.me/tags/</loc>
-    <priority>0</priority>
+    <loc>/talk/example/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://edoardodebenedetti.me/</loc>
-    <lastmod>2018-05-27T11:08:03+08:00</lastmod>
-    <priority>0</priority>
+    <loc>/talk/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/machine-learning/</loc>
+    <lastmod>2019-12-02T22:55:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/</loc>
+    <lastmod>2019-12-02T22:55:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/subspace-attack-reproduction/</loc>
+    <lastmod>2019-12-02T22:55:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-12-02T22:55:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/higgs-boson-challenge/</loc>
+    <lastmod>2019-12-02T22:50:08+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/pindery/</loc>
+    <lastmod>2019-12-02T22:42:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/software/</loc>
+    <lastmod>2019-12-02T22:42:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/writing-technical-content/</loc>
+    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/admin/</loc>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/3/</loc>
+    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/preprint/</loc>
+    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/source-themes/</loc>
+    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/jupyter/</loc>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/slides/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/slides/example/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/academic/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/getting-started/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/demo/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/2/</loc>
+    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/journal-article/</loc>
+    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/robert-ford/</loc>
+    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/1/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/conference-paper/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/</loc>
   </url>
   
 </urlset>

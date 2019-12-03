@@ -1,14 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on edoardo_debenedetti</title>
-    <link>https://edoardodebenedetti.me/tags/</link>
-    <description>Recent content in Tags on edoardo_debenedetti</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <title>Tags | Edoardo Debenedetti</title>
+    <link>/tags/</link>
+      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Edoardo Debenedetti, 2019. This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Mon, 02 Dec 2019 22:55:24 +0100</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Tags</title>
+      <link>/tags/</link>
+    </image>
     
-	<atom:link href="https://edoardodebenedetti.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Machine Learning</title>
+      <link>/tags/machine-learning/</link>
+      <pubDate>Mon, 02 Dec 2019 22:55:24 +0100</pubDate>
+      <guid>/tags/machine-learning/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>Software</title>
+      <link>/tags/software/</link>
+      <pubDate>Mon, 02 Dec 2019 22:42:00 +0100</pubDate>
+      <guid>/tags/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Source Themes</title>
+      <link>/tags/source-themes/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/tags/source-themes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Academic</title>
+      <link>/tags/academic/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/tags/academic/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
