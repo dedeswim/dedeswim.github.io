@@ -5,7 +5,7 @@
     <link>/tags/</link>
       <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Edoardo Debenedetti, 2019. This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Mon, 02 Dec 2019 22:55:24 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Edoardo Debenedetti. This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Mon, 02 Dec 2019 22:55:24 +0100</lastBuildDate>
     <image>
       <url>/img/desert.jpg</url>
       <title>Tags</title>
@@ -29,18 +29,18 @@
     </item>
     
     <item>
-      <title>Source Themes</title>
-      <link>/tags/source-themes/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/source-themes/</guid>
+      <title>privacy</title>
+      <link>/tags/privacy/</link>
+      <pubDate>Sun, 03 Dec 2017 14:48:58 +0100</pubDate>
+      <guid>/tags/privacy/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Academic</title>
-      <link>/tags/academic/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/tags/academic/</guid>
+      <title>spid</title>
+      <link>/tags/spid/</link>
+      <pubDate>Sun, 03 Dec 2017 14:48:58 +0100</pubDate>
+      <guid>/tags/spid/</guid>
       <description></description>
     </item>
     

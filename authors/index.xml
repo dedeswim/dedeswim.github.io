@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Edoardo Debenedetti, 2019. This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Edoardo Debenedetti. This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Sun, 03 Dec 2017 14:48:58 +0100</lastBuildDate>
     <image>
       <url>/img/desert.jpg</url>
       <title>Authors</title>
@@ -14,23 +14,15 @@
     
     <item>
       <title></title>
-      <link>/authors/admin/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/admin/</guid>
-      <description>&lt;p&gt;I am a Computer Science M.Sc. student at &lt;strong&gt;École polytechnique fédérale de Lausanne&lt;/strong&gt;, with a strong focus on &lt;strong&gt;Machine Learning and Security&lt;/strong&gt;. I earned a Computer Engineering B.Sc. at the &lt;strong&gt;Polytechnic University of Turin&lt;/strong&gt;, after spending my sophomore year as an exchange student at Tongji University (&lt;strong&gt;同济大学&lt;/strong&gt;) in Shanghai, supported by PoliTong scholarship.&lt;/p&gt;
+      <link>/authors/edoardo/</link>
+      <pubDate>Sun, 03 Dec 2017 14:48:58 +0100</pubDate>
+      <guid>/authors/edoardo/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://knowyourmeme.com/memes/hello-there&#34;&gt;Hello there&lt;/a&gt;! I am &lt;strong&gt;Edoardo&lt;/strong&gt;, a &lt;strong&gt;Computer Science M.Sc.&lt;/strong&gt; student at &lt;strong&gt;École polytechnique fédérale de Lausanne&lt;/strong&gt;, with a strong focus on &lt;strong&gt;Machine Learning and Security&lt;/strong&gt;. I earned a Computer Engineering B.Sc. at the &lt;strong&gt;Polytechnic University of Turin&lt;/strong&gt;, after spending my sophomore year as an exchange student at Tongji University (&lt;strong&gt;同济大学&lt;/strong&gt;) in Shanghai, supported by PoliTong scholarship.&lt;/p&gt;
 &lt;p&gt;I interned at the IT Consulting firm Blue Reply, part of &lt;strong&gt;Reply Group&lt;/strong&gt;, working on &lt;strong&gt;RPA&lt;/strong&gt; and on the development of a &lt;strong&gt;chatbot&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;I am highly curiosity-driven and my goal is to become an &lt;strong&gt;ML Research Scientist&lt;/strong&gt;, after pursuing a Ph.D. in Computer Science.&lt;/p&gt;
 &lt;p&gt;I attended &lt;strong&gt;Military Navy College&lt;/strong&gt; &amp;ldquo;F. Morosini&amp;rdquo;, in Venice. There, I lead sophomores as &lt;strong&gt;prefect&lt;/strong&gt; during my final year, and I received &lt;strong&gt;military training&lt;/strong&gt; aboard Italian Navy&#39;s units and at Italian Navy&#39;s Marine Corps.&lt;/p&gt;
 &lt;p&gt;I am also swimming, sailing, and travel addicted. I like to call myself a &lt;em&gt;beta tester&lt;/em&gt;.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Robert Ford</title>
-      <link>/authors/robert-ford/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>/authors/robert-ford/</guid>
-      <description></description>
     </item>
     
   </channel>
