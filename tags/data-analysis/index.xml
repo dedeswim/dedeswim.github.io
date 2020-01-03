@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Analysis | Edoardo Debenedetti</title>
+    <link>/tags/data-analysis/</link>
+      <atom:link href="/tags/data-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Data Analysis</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Edoardo Debenedetti. This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Fri, 03 Jan 2020 11:31:07 +0100</lastBuildDate>
+    <image>
+      <url>/img/desert.jpg</url>
+      <title>Data Analysis</title>
+      <link>/tags/data-analysis/</link>
+    </image>
+    
+    <item>
+      <title>Make Crops, Not War!</title>
+      <link>/project/make-crops-not-war/</link>
+      <pubDate>Fri, 03 Jan 2020 11:31:07 +0100</pubDate>
+      <guid>/project/make-crops-not-war/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
