@@ -12,21 +12,5 @@
       <link>/categories/</link>
     </image>
     
-    <item>
-      <title>Article</title>
-      <link>/categories/article/</link>
-      <pubDate>Sun, 03 Dec 2017 14:48:58 +0100</pubDate>
-      <guid>/categories/article/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Blog</title>
-      <link>/categories/blog/</link>
-      <pubDate>Sun, 03 Dec 2017 14:48:58 +0100</pubDate>
-      <guid>/categories/blog/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>

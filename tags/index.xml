@@ -12,45 +12,5 @@
       <link>/tags/</link>
     </image>
     
-    <item>
-      <title>Data Analysis</title>
-      <link>/tags/data-analysis/</link>
-      <pubDate>Fri, 03 Jan 2020 11:31:07 +0100</pubDate>
-      <guid>/tags/data-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Machine Learning</title>
-      <link>/tags/machine-learning/</link>
-      <pubDate>Mon, 02 Dec 2019 22:55:24 +0100</pubDate>
-      <guid>/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Software</title>
-      <link>/tags/software/</link>
-      <pubDate>Mon, 02 Dec 2019 22:42:00 +0100</pubDate>
-      <guid>/tags/software/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>privacy</title>
-      <link>/tags/privacy/</link>
-      <pubDate>Sun, 03 Dec 2017 14:48:58 +0100</pubDate>
-      <guid>/tags/privacy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>spid</title>
-      <link>/tags/spid/</link>
-      <pubDate>Sun, 03 Dec 2017 14:48:58 +0100</pubDate>
-      <guid>/tags/spid/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
