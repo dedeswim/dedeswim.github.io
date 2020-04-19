@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>neurips | Edoardo Debenedetti</title>
+    <link>/tags/neurips/</link>
+      <atom:link href="/tags/neurips/index.xml" rel="self" type="application/rss+xml" />
+    <description>neurips</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Edoardo Debenedetti. This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)</copyright><lastBuildDate>Fri, 03 Jan 2020 18:47:43 +0100</lastBuildDate>
+    <image>
+      <url>/img/desert.jpg</url>
+      <title>neurips</title>
+      <link>/tags/neurips/</link>
+    </image>
+    
+    <item>
+      <title>[Re] Subspace Attack: Exploiting Promising Subspaces for Query-Efficient Black-box Attacks</title>
+      <link>/publication/subspace-attack-reproduction/</link>
+      <pubDate>Fri, 03 Jan 2020 18:47:43 +0100</pubDate>
+      <guid>/publication/subspace-attack-reproduction/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
