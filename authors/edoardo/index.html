@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.6.2">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
 
   
 
@@ -48,7 +48,7 @@
   
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
     
@@ -60,8 +60,8 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
         
       
     
@@ -100,13 +100,15 @@
       dataLayer.push(arguments);
   }
 
-  function trackOutboundLink(url) {
+  function trackOutboundLink(url, target) {
     gtag('event', 'click', {
          'event_category': 'outbound',
          'event_label': url,
          'transport_type': 'beacon',
          'event_callback': function () {
-           document.location = url;
+           if (target !== '_blank') {
+             document.location = url;
+           }
          }
     });
     console.debug("Outbound link clicked: " + url);
@@ -116,7 +118,7 @@
     if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
       return;
     }
-    trackOutboundLink(event.target);  
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
   }
 
   gtag('js', new Date());
@@ -166,10 +168,14 @@
 
 
   
-
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
-<script>
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
   window.addEventListener("load", function(){
     window.cookieconsent.initialise({
       "palette": {
@@ -190,7 +196,7 @@
         "href": "/tags/privacy/"
       }
     })});
-</script>
+  </script>
 
 
 
@@ -239,11 +245,16 @@
 
 
   
+
+
+
+
+
+
+
 <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
-    
-    
     
 
     
@@ -251,6 +262,8 @@
             data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
     <span><i class="fas fa-bars"></i></span>
     </button>
+    
+
     
 
     
@@ -429,6 +442,8 @@
   
 
 
+
+
 <section id="profile-page" class="pt-5">
   <div class="container">
     
@@ -451,13 +466,14 @@
 
 
 
+
 <div class="row">
   <div class="col-12 col-lg-4">
     <div id="profile">
 
       
       
-      <img class="portrait" src="/authors/edoardo/avatar_hu9126f1331ab1abd8257f23b9e00c6329_372924_250x250_fill_lanczos_center_2.png" alt="Avatar">
+      <img class="avatar avatar-circle" src="/authors/edoardo/avatar_hu9126f1331ab1abd8257f23b9e00c6329_372924_270x270_fill_lanczos_center_2.png" alt="Avatar">
       
 
       <div class="portrait-title">
@@ -567,11 +583,19 @@
     
     
 
-    <p><a href="https://knowyourmeme.com/memes/hello-there">Hello there</a>! I am <strong>Edoardo</strong>, a <strong>Computer Science M.Sc.</strong> student at <a href="https://epfl.ch/en"><strong>EPFL</strong></a>, with a strong focus on <strong>Machine Learning and Security</strong>. I earned a Computer Engineering B.Sc. at <a href="https://www.polito.it/"><strong>PoliTo</strong></a>, after spending my sophomore year as an exchange student at <a href="https://en.tongji.edu.cn/">Tongji University (<strong>同济大学</strong>)</a> in Shanghai, supported by <a href="https://www.polito.it/international/offerta/percorsi/politong/index.php?lang=en">PoliTong</a> scholarship.</p>
-<p>I am currently working on a <strong>research project</strong> about <strong>deepfakes counteraction</strong> with <strong><a href="http://carmelatroncoso.com/">Prof. Troncoso</a></strong> at EPFL&rsquo;s <a href="https://www.epfl.ch/labs/spring/">SPRING Lab</a>.</p>
+    <p>
+<a href="https://knowyourmeme.com/memes/hello-there" target="_blank" rel="noopener">Hello there</a>! I am <strong>Edoardo</strong>, a <strong>Computer Science M.Sc.</strong> student at 
+<a href="https://epfl.ch/en" target="_blank" rel="noopener"><strong>EPFL</strong></a>, with a strong focus on <strong>Machine Learning and Security</strong>. I earned a Computer Engineering B.Sc. at 
+<a href="https://www.polito.it/" target="_blank" rel="noopener"><strong>PoliTo</strong></a>, after spending my sophomore year as an exchange student at 
+<a href="https://en.tongji.edu.cn/" target="_blank" rel="noopener">Tongji University (<strong>同济大学</strong>)</a> in Shanghai, supported by 
+<a href="https://www.polito.it/international/offerta/percorsi/politong/index.php?lang=en" target="_blank" rel="noopener">PoliTong</a> scholarship.</p>
+<p>I am currently working on a <strong>research project</strong> about <strong>deepfakes counteraction</strong> with <strong>
+<a href="http://carmelatroncoso.com/" target="_blank" rel="noopener">Prof. Troncoso</a></strong> at EPFL&rsquo;s 
+<a href="https://www.epfl.ch/labs/spring/" target="_blank" rel="noopener">SPRING Lab</a>.</p>
 <p>I interned at the IT Consulting firm Blue Reply, part of <strong>Reply Group</strong>, working on <strong>RPA</strong> and on the development of a <strong>chatbot</strong>.</p>
 <p>I am highly curiosity-driven and my goal is to become an <strong>ML Research Scientist</strong>, after pursuing a Ph.D. in Computer Science.</p>
-<p>I attended <a href="http://www.marina.difesa.it/EN/training_institute/morosini/Pagine/default.aspx"><strong>Military Navy College</strong> &ldquo;F. Morosini&rdquo;</a>, in Venice. There, I lead sophomores as <strong>prefect</strong> during my final year, and I received <strong>military training</strong> aboard Italian Navy&rsquo;s units and at Italian Navy&rsquo;s Marine Corps.</p>
+<p>I attended 
+<a href="http://www.marina.difesa.it/EN/training_institute/morosini/Pagine/default.aspx" target="_blank" rel="noopener"><strong>Military Navy College</strong> &ldquo;F. Morosini&rdquo;</a>, in Venice. There, I lead sophomores as <strong>prefect</strong> during my final year, and I received <strong>military training</strong> aboard Italian Navy&rsquo;s units and at Italian Navy&rsquo;s Marine Corps.</p>
 <p>I am also swimming, sailing, and travel addicted. I like to call myself a <em>beta tester</em>.</p>
 
 
@@ -652,9 +676,6 @@
 
     
     
-
-    
-    
     
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
@@ -665,14 +686,12 @@
 
       
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
         
       
 
-      
-      
     
 
     
@@ -683,6 +702,11 @@
     
     
     <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
     
 
     
@@ -747,7 +771,7 @@
     
     
     
-    <script src="/js/academic.min.bcfae8267aba63cc55af53a503896bd9.js"></script>
+    <script src="/js/academic.min.c816d323c3a55093dae0829b44ea1ca8.js"></script>
 
     
 

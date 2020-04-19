@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.6.2">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
 
   
 
@@ -51,7 +51,7 @@ Sperando di poter tirare su almeno 300-350€, Mario riceve diverse offerte, fin
   
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
     
@@ -63,8 +63,8 @@ Sperando di poter tirare su almeno 300-350€, Mario riceve diverse offerte, fin
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
         
       
     
@@ -103,13 +103,15 @@ Sperando di poter tirare su almeno 300-350€, Mario riceve diverse offerte, fin
       dataLayer.push(arguments);
   }
 
-  function trackOutboundLink(url) {
+  function trackOutboundLink(url, target) {
     gtag('event', 'click', {
          'event_category': 'outbound',
          'event_label': url,
          'transport_type': 'beacon',
          'event_callback': function () {
-           document.location = url;
+           if (target !== '_blank') {
+             document.location = url;
+           }
          }
     });
     console.debug("Outbound link clicked: " + url);
@@ -119,7 +121,7 @@ Sperando di poter tirare su almeno 300-350€, Mario riceve diverse offerte, fin
     if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
       return;
     }
-    trackOutboundLink(event.target);  
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
   }
 
   gtag('js', new Date());
@@ -182,8 +184,6 @@ Sperando di poter tirare su almeno 300-350€, Mario riceve diverse offerte, fin
 
 
 
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -207,7 +207,7 @@ Sperando di poter tirare su almeno 300-350€, Mario riceve diverse offerte, fin
     "name": "Edoardo Debenedetti",
     "logo": {
       "@type": "ImageObject",
-      "url": "/img/icon-512.png"
+      "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
   "description": "This post was first published on Prosperous Network\n30 settembre Mario Bianchi, neo diciottenne, si è da poco iscritto al sito per riscattare il Bonus Cultura da 500€.\nMario, tuttavia non si definirebbe un ragazzo di cultura, e preferirebbe spendere i suoi 500€ in qualcosa che lui reputa più divertente ed entusiasmante. Gli viene allora una brillante idea.\nSperando di poter tirare su almeno 300-350€, Mario riceve diverse offerte, finché non riceve un’interessante messaggio:"
@@ -220,10 +220,14 @@ Sperando di poter tirare su almeno 300-350€, Mario riceve diverse offerte, fin
 
 
   
-
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
-<script>
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
   window.addEventListener("load", function(){
     window.cookieconsent.initialise({
       "palette": {
@@ -244,7 +248,7 @@ Sperando di poter tirare su almeno 300-350€, Mario riceve diverse offerte, fin
         "href": "/tags/privacy/"
       }
     })});
-</script>
+  </script>
 
 
 
@@ -293,11 +297,16 @@ Sperando di poter tirare su almeno 300-350€, Mario riceve diverse offerte, fin
 
 
   
+
+
+
+
+
+
+
 <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
-    
-    
     
 
     
@@ -305,6 +314,8 @@ Sperando di poter tirare su almeno 300-350€, Mario riceve diverse offerte, fin
             data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
     <span><i class="fas fa-bars"></i></span>
     </button>
+    
+
     
 
     
@@ -518,11 +529,8 @@ Sperando di poter tirare su almeno 300-350€, Mario riceve diverse offerte, fin
   <div>
     
 
-
-
   
   <span><a href="/authors/edoardo/">Edoardo Debenedetti</a></span>
-
   </div>
   
   
@@ -584,9 +592,11 @@ Sperando di poter tirare su almeno 300-350€, Mario riceve diverse offerte, fin
   <div class="article-container">
 
     <div class="article-style">
-      <p><strong>This post was first published on <a href="https://prosperousnetwork.com/2017/10/cronaca-di-unidentita-rubata/">Prosperous Network</a></strong></p>
+      <p><strong>This post was first published on 
+<a href="https://prosperousnetwork.com/2017/10/cronaca-di-unidentita-rubata/" target="_blank" rel="noopener">Prosperous Network</a></strong></p>
 <h6 id="30-settembre">30 settembre</h6>
-<p>Mario Bianchi, neo diciottenne, si è da poco iscritto al <a href="https://www.18app.italia.it">sito</a> per riscattare il <strong>Bonus Cultura</strong> da 500€.</p>
+<p>Mario Bianchi, neo diciottenne, si è da poco iscritto al 
+<a href="https://www.18app.italia.it" target="_blank" rel="noopener">sito</a> per riscattare il <strong>Bonus Cultura</strong> da 500€.</p>
 <p>Mario, tuttavia non si definirebbe un ragazzo di cultura, e preferirebbe spendere i <em>suoi</em> 500€ in qualcosa che lui reputa più divertente ed entusiasmante. Gli viene allora una brillante idea.</p>
 <p><img src="https://prosperousnetwork.com/wp-content/uploads/2017/09/Post-Iniziale.png" alt="Vendo Bonus Cultura"></p>
 <p>Sperando di poter tirare su almeno 300-350€, Mario riceve diverse offerte, finché non riceve un’interessante messaggio:</p>
@@ -730,11 +740,8 @@ Sperando di poter tirare su almeno 300-350€, Mario riceve diverse offerte, fin
 
 
   
-  
     
-  
-  
-
+    
 
 
 
@@ -744,12 +751,13 @@ Sperando di poter tirare su almeno 300-350€, Mario riceve diverse offerte, fin
   
   
     
+  
   
   
   <div class="media author-card content-widget-hr">
     
       
-      <img class="portrait mr-3" src="/authors/edoardo/avatar_hu9126f1331ab1abd8257f23b9e00c6329_372924_250x250_fill_lanczos_center_2.png" alt="Avatar">
+      <img class="avatar mr-3 avatar-circle" src="/authors/edoardo/avatar_hu9126f1331ab1abd8257f23b9e00c6329_372924_270x270_fill_lanczos_center_2.png" alt="Avatar">
     
 
     <div class="media-body">
@@ -847,6 +855,10 @@ Sperando di poter tirare su almeno 300-350€, Mario riceve diverse offerte, fin
   </div>
 
 
+  
+
+
+
 
 
 
@@ -866,9 +878,6 @@ Sperando di poter tirare su almeno 300-350€, Mario riceve diverse offerte, fin
 
     
     
-
-    
-    
     
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
@@ -879,14 +888,12 @@ Sperando di poter tirare su almeno 300-350€, Mario riceve diverse offerte, fin
 
       
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
         
       
 
-      
-      
     
 
     
@@ -897,6 +904,11 @@ Sperando di poter tirare su almeno 300-350€, Mario riceve diverse offerte, fin
     
     
     <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
     
 
     
@@ -961,7 +973,7 @@ Sperando di poter tirare su almeno 300-350€, Mario riceve diverse offerte, fin
     
     
     
-    <script src="/js/academic.min.bcfae8267aba63cc55af53a503896bd9.js"></script>
+    <script src="/js/academic.min.c816d323c3a55093dae0829b44ea1ca8.js"></script>
 
     
 
