@@ -3,82 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/authors/edoardo/</loc>
-    <lastmod>2020-01-03T18:47:43+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/3/</loc>
-    <lastmod>2020-01-03T18:47:43+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/subspace-attack-reproduction/</loc>
-    <lastmod>2020-01-03T18:47:43+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
-    <lastmod>2020-01-03T18:47:43+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <lastmod>2020-01-03T18:47:43+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/dan-shaked-renous/</loc>
-    <lastmod>2020-01-03T18:47:43+01:00</lastmod>
+    <loc>/tags/data-analysis/</loc>
+    <lastmod>2020-01-03T11:31:07+01:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-01-03T18:47:43+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/faezeh-nassajian/</loc>
-    <lastmod>2020-01-03T18:47:43+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/machine-learning/</loc>
-    <lastmod>2020-01-03T18:47:43+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/ml/</loc>
-    <lastmod>2020-01-03T18:47:43+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/neurips/</loc>
-    <lastmod>2020-01-03T18:47:43+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2020-01-03T18:47:43+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2020-01-03T18:47:43+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/reproduction/</loc>
-    <lastmod>2020-01-03T18:47:43+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-01-03T18:47:43+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/data-analysis/</loc>
     <lastmod>2020-01-03T11:31:07+01:00</lastmod>
   </url>
   
@@ -89,6 +19,11 @@
   
   <url>
     <loc>/project/</loc>
+    <lastmod>2020-01-03T11:31:07+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
     <lastmod>2020-01-03T11:31:07+01:00</lastmod>
   </url>
   
@@ -118,12 +53,27 @@
   </url>
   
   <url>
+    <loc>/authors/edoardo/</loc>
+    <lastmod>2019-12-03T14:48:58+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/article/</loc>
     <lastmod>2019-12-03T14:48:58+01:00</lastmod>
   </url>
   
   <url>
+    <loc>/authors/</loc>
+    <lastmod>2019-12-03T14:48:58+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/blog/</loc>
+    <lastmod>2019-12-03T14:48:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
     <lastmod>2019-12-03T14:48:58+01:00</lastmod>
   </url>
   
@@ -149,6 +99,14 @@
   
   <url>
     <loc>/courses/</loc>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
   </url>
   
   <url>
