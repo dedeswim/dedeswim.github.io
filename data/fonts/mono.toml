@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Mono"
+
+# Optional Google font URL
+google_fonts = "Bebas+Neue|IBM+Plex+Mono"
+
+# Font families
+heading_font = "Bebas Neue"
+body_font = "IBM Plex Mono"
+nav_font = "IBM Plex Mono"
+mono_font = "IBM Plex Mono"
