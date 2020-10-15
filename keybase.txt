@@ -1,0 +1,88 @@
+==================================================================
+https://keybase.io/dedeswim
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://edoardo.science
+  * I am dedeswim (https://keybase.io/dedeswim) on keybase.
+  * I have a public key with fingerprint 8E81 5ED3 DA2C 13ED 56D1  6A54 FE03 2FA8 D678 0AC5
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01201400c1b87a0dbf0d6704298f743b79ac7177f43f8cc271acb420cfaad3f703d70a",
+      "fingerprint": "8e815ed3da2c13ed56d16a54fe032fa8d6780ac5",
+      "host": "keybase.io",
+      "key_id": "fe032fa8d6780ac5",
+      "kid": "010148fb9a368f714337d150faa7724868d8840b63ad5ad082673549b1aa3f18c8900a",
+      "uid": "1079327d8d0a550317038ff18a639819",
+      "username": "dedeswim"
+    },
+    "merkle_root": {
+      "ctime": 1602759242,
+      "hash_meta": "91d9f29f2b386d859a01efa747edbe87877058a537a01fd92a5f0353149dfa89",
+      "seqno": 17833450
+    },
+    "revoke": {
+      "sig_ids": [
+        "2747a5875c0ebb86470f91e577dfa03657022b8a86e998494c4f5c7966b8f7250f"
+      ]
+    },
+    "service": {
+      "hostname": "edoardo.science",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1602759244,
+  "expire_in": 157680000,
+  "prev": "07e77aebf7afc612fa9336e3c3e22b8c066a7c0773b21a9ff0562e0094e68b9c",
+  "seqno": 49,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMQCAnicbVMLbBRFGL5yWkpNkSCpwQJpl7agrTC7s7MzWyGgNDQ8LGiUR6Ccszuz
+d0vb2+vu9SiQKhIQyyuCREEQeRooBBAQrAry9oFFSQ1CWpFgoKctIkpTxAfONhAT
+42aTzex8//d9//fPnMgIBtJT/g4O3XauJv1kyuljc6oDoVcfGz9XMhw2WyqaK5Xz
+rg+vYNyLh8ptJhVJQFaArAJgygbBFDDDAkzDQFV0YmEVGlinJpYxtlRoEdNUsExN
+Q1WAaVHKoIUBZBhQqVCy7GiYuzHXjsYFLeFERpxBRhVThpwhjckaRarFAVQsSoQG
+AdREojDieH6FMGdQjw+xHfFPLEJd9v4Hf8+3sE0sQ6dQE05lFULMZASELYwVlWiE
+EaICQ4OUIcoAUTQMkaobMqXQkolJdNDlu7qLTgZYhwpmhAGKEICyaIxYAkc1qBNZ
+94Eed6O0kgs04yLBWXalVFsoVXK3vIKHXMeJ++GacduHyBpQMNIVVRENUi8SquRx
+Kip1memWIl4DEo0RpFMgc4tiFXNmcIIJxgARiqCYhWwxXaHIAhBBWdWZiMH34fGq
+qCMUMIFQRUBYcHnCKee+umeHRW6eVDRNUgQnRQQjE3DDIJqKgaXLHGEsiADUEAaK
+YhBKNK7rRNVVU7WQiXVNM0SeikhSKqv11dyEbXaR+4O6GwBnDnWZM8QzbR4Vu4VS
+zHXijulUiM1IPB7zivxs4rNjPnoWN0J3eUKGHWXipIiKBHc924mKTgTyv7GphRKv
+idkuD9k+AmGNAPH4Ojzhjx9zjCk3LEwtU5PFEdEh1Dg0Ife7MoGmUWwCjKGhyFS3
+LIA0hQOgq1wjhm7+m6OqC580LDhFeFEar3a5VHvs6PT7AinpgdT7u/lXKJDeo9e9
+izWztFdgJz9CL5T2bcb7X898KBfM37TyrdUfxb44nsxd8eTk039VJc9npAcG3V6V
+2Nv6VCcKTqh4uWJZx/N7L55s0KI7lxTnTdnCI9UtkcS1xQOLws3Lqkuauhfvbdo1
+tduYLZu+GzK91VkXzqmr/Qp9HNycv/ra2FbZcxbVbjd+D+R3rrmcmTKgLePNBa0r
+zk5qi2ZvyKt8urQgN/096cuROx95KbvXB5cWRG9H+mzrnPfMwoYbaaeaUXz5KwXL
+E/VB9Vr+0PiD5Ld2c9HyuY+PbpjTu6ln79K6/Kxz6/dcLl1QU9YxdX3Hwf43Xzzf
+0r6tbGzq5j6f5o/4dX5y2Gvnqrbc/OXIoZM3sj5sv9E+8ciKlaPuHDJzjw//Wt//
+08JxNdNZeNnbWwO3Yosf6KkdmHkiJzK+bQx+Lu9A55Kj6hNvbBr87O76ookbztbA
+rTm18dHZU65eP9Q08VLHKG1wtx8Lhk9bO3NOonhgY8uFVHdcZr/grXf7P7rnTBrO
+Rxv54heS2cWTJTurcYyVrDs87EpJReG6HzLWnm34Y0f9qqzyHhv3dW871Tb4/PzL
+OSVrrtdPXm2VTCrLXfn+gODSRU3NnaU7kgWDhqbO6HewuHvjz5l5LcN3vzNh3/ef
+RerSBkViM7bv9pa6pz8/fGHkmbbNjdtDf+4aoVx8+CqoKr9zO5aWnHf8yjfhCbM+
+mdoY/LZvJSgb5g5sXJPT8x+yYfwW
+=eHme
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dedeswim
+
+==================================================================
