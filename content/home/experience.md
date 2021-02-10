@@ -19,6 +19,33 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
   title = "Software Engineering Intern"
+  company = "Bloomberg LP"
+  company_url = "https://bloomberg.com"
+  location = "London, UK"
+  date_start = "2021-07-01"
+  date_end = "2021-09-21"
+  description = """
+
+  Incoming intern, project and team TBD.
+  """
+
+[[experience]]
+  title = "Research Intern"
+  company = "armasuisse Cyber-Defence Campus"
+  company_url = "https://www.ar.admin.ch/en/armasuisse-wissenschaft-und-technologie-w-t/cyber-defence_campus.html"
+  location = "Lausanne, Switzerland"
+  date_start = "2020-08-01"
+  date_end = "2021-01-31"
+  description = """
+
+  Cyber-Defence Campus is the Swiss equivalent of DARPA,a research center of the ArmedForces for the cyber-defence capability development. I am being hosted and supervised by Dr. Humbert.
+
+  * Conducted research about Machine Unlearning and Membership Inference Attacks against Generative Models under the supervision of Dr. Mathias Humbert.
+  * Tools in use: PyTorch, PyTorch Lightning, Comet ML, and Python.
+  """
+
+[[experience]]
+  title = "Software Engineering Intern"
   company = "Reply"
   company_url = "https://reply.com"
   location = "Turin, Italy"

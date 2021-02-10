@@ -21,15 +21,13 @@ organizations:
 bio: My research interests include Machine Learning and Security.
 
 interests:
-- Machine Learning
-- Security
-- Security and Privacy in ML
+- Trustworthy Machine Learning
 
 education:
   courses:
   - course: M.Sc. in Computer Science 🇨🇭
     institution: EPFL - Swiss Federal Institute of Technology, Lausanne, Switzerland
-    year: 2019-2021 (exp.)
+    year: 2019-2022 (exp.)
   - course: B.Sc. in Computer Engineering 🇮🇹
     institution: PoliTo - Turin Polytechic University, Italy
     year: 2016-2019
@@ -75,12 +73,11 @@ user_groups:
 
 [Hello there](https://knowyourmeme.com/memes/hello-there)! I am **Edoardo**, a **Computer Science M.Sc.** student at [**EPFL**](https://epfl.ch/en), with a strong focus on **Machine Learning and Security**. I earned a Computer Engineering B.Sc. at [**PoliTo**](https://www.polito.it/), after spending my sophomore year as an exchange student at [Tongji University (**同济大学**)](https://en.tongji.edu.cn/) in Shanghai, supported by [PoliTong](https://www.polito.it/international/partnership/politecnico_nel_mondo/politong/index.php?lang=en) scholarship.
 
-I am currently working on a **research project** about **deepfakes counteraction** with **[Prof. Troncoso](http://carmelatroncoso.com/)** at EPFL's [SPRING Lab](https://www.epfl.ch/labs/spring/).
+My research interest lays in **Trustworthy ML** in its different aspects. I am currently working with the team of **[RobustBench](https://robustbench.github.io)**, a standardized benchmark for adversarial robustness under different threat models. During this last semester, instead, I was a Research Intern at [armasuisse CYD Campus](https://www.ar.admin.ch/en/armasuisse-wissenschaft-und-technologie-w-t/cyber-defence_campus.html), supervised by [Dr. Humbert](https://www.mhumbert.com/). There, I did research on **Machine Unlearning** and **membership inference attacks** against generative models.
+During the last Spring semester, instead, I did a **research project** at [Prof. Troncoso](http://carmelatroncoso.com/) [SPRING Lab](https://www.epfl.ch/labs/spring/), where I worked on influence functions with the aim of **counteracting deepfakes**.
 
-I interned at the IT Consulting firm Blue Reply, part of **Reply Group**, working on **RPA** and on the development of a **chatbot**.
+Finally, during the next summer, I will be Software Engineering Intern at **Bloomberg LP**, London.
 
-I am highly curiosity-driven and my goal is to become an **ML Research Scientist**, after pursuing a Ph.D. in Computer Science.
+I attended [**Military Navy College** "F. Morosini"](http://www.marina.difesa.it/EN/training_institute/morosini/Pagine/default.aspx), in Venice, I am a member of [LeadTheFuture](https://leadthefuture.tech), the leading mentoring program for STEM students in Italy, and I have been junior entrepreneur at [JEToP](https://jetop.com).
 
-I attended [**Military Navy College** "F. Morosini"](http://www.marina.difesa.it/EN/training_institute/morosini/Pagine/default.aspx), in Venice. There, I lead sophomores as **prefect** during my final year, and I received **military training** aboard Italian Navy's units and at Italian Navy's Marine Corps.
-
-I am also swimming, sailing, and travel addicted. I like to call myself a *beta tester*.
+I am also swimming, sailing, and travel addicted.
