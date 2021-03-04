@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Edoardo Debenedetti
+title: Edoardo Debenedetti
 
 # Username (this should match the folder name)
 authors:

@@ -56,13 +56,13 @@ logo = ""
 
 # Enable source code highlighting? true/false
 # Documentation: https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
-highlight = true
+highlight = false
 highlight_languages = ["r"]  # Add support for highlighting additional languages
 # highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
 
 # Enable LaTeX math rendering? true/false
 #   If false, you can enable math on a per page basis as needed.
-math = true
+math = false
 
 # Enable diagram rendering? true/false
 #   If false, you can enable diagrams on a per page basis as needed.
@@ -201,10 +201,10 @@ plugins_js  = []
 ############################
 [comments]
   # Comment provider:
-  #   0: Disabled
+  #   "": Disabled
   #   1: Disqus (https://disqus.com)
   #   2: Commento (https://commento.io)
-  engine = 0
+  provider = ""
 
   # Which page types are commentable?
   commentable = {page = true, post = true, docs = true, project = true, publication = true, talk = true}
@@ -222,7 +222,7 @@ plugins_js  = []
   #   0: No search engine
   #   1: Academic (built-in)
   #   2: Algolia (https://www.algolia.com)
-  engine = 1
+  provider = ""
 
   # Configuration of Algolia search engine.
   # Paste the values from your Algolia dashboard.
@@ -239,18 +239,18 @@ plugins_js  = []
   # To show your address on a map in the Contact widget, enter your latitude and longitude (above)
   # and choose a map provider below.
   #
-  # To use Google Maps, set `engine` to 1 and enter your API key that can be obtained here:
+  # To use Google Maps, set `provider` to 1 and enter your API key that can be obtained here:
   #   https://developers.google.com/maps/documentation/javascript/get-api-key
-  # To use OpenStreetMap tiles, set `engine` to 2.
-  # To use OpenStreetMap on a high traffic site, set `engine` to 3 and enter your API key that can be obtained here:
+  # To use OpenStreetMap tiles, set `provider` to 2.
+  # To use OpenStreetMap on a high traffic site, set `provider` to 3 and enter your API key that can be obtained here:
   #   https://www.mapbox.com/studio/account/tokens
   #
   # Map provider:
-  #   0: No map
-  #   1: Google Maps
-  #   2: OpenStreetMap (Mapnik)
-  #   3: OpenStreetMap (Mapbox)
-  engine = 2
+  #   ""
+  #   "Google Maps"
+  #   OpenStreetMap ("Mapnik")
+  #   OpenStreetMap ("Mapbox")
+  provider = ""
   api_key = ""
   zoom = 15
 
@@ -263,3 +263,9 @@ plugins_js  = []
 
 [icon.pack]
   ai = true
+
+# Content Management System
+[cms]
+ # Enable the admin panel. See https://wowchemy.com/docs/install/
+ netlify_cms = false
+
