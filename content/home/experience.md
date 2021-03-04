@@ -38,7 +38,7 @@ date_format = "Jan 2006"
   date_end = "2021-01-31"
   description = """
 
-  Cyber-Defence Campus is the Swiss equivalent of DARPA,a research center of the ArmedForces for the cyber-defence capability development. I am being hosted and supervised by Dr. Humbert.
+  Cyber-Defence Campus is the Swiss equivalent of DARPA,a research center of the ArmedForces for the cyber-defence capability development. I have been hosted and supervised by Dr. Humbert.
 
   * Conducted research about Machine Unlearning and Membership Inference Attacks against Generative Models under the supervision of Dr. Mathias Humbert.
   * Tools in use: PyTorch, PyTorch Lightning, Comet ML, and Python.

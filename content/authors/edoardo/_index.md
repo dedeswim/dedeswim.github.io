@@ -73,7 +73,7 @@ user_groups:
 
 [Hello there](https://knowyourmeme.com/memes/hello-there)! I am **Edoardo**, a **Computer Science M.Sc.** student at [**EPFL**](https://epfl.ch/en), with a strong focus on **Machine Learning and Security**. I earned a Computer Engineering B.Sc. at [**PoliTo**](https://www.polito.it/), after spending my sophomore year as an exchange student at [Tongji University (**同济大学**)](https://en.tongji.edu.cn/) in Shanghai, supported by [PoliTong](https://www.polito.it/international/partnership/politecnico_nel_mondo/politong/index.php?lang=en) scholarship.
 
-My research interest lays in **Trustworthy ML** in its different aspects. I am currently working with the team of **[RobustBench](https://robustbench.github.io)**, a standardized benchmark for adversarial robustness under different threat models.
+My research interest lies in **Trustworthy ML** in its different aspects. I am currently working with the team of **[RobustBench](https://robustbench.github.io)**, a standardized benchmark for adversarial robustness under different threat models.
 
 During the last semester, I was a Research Intern at [armasuisse CYD Campus](https://www.ar.admin.ch/en/armasuisse-wissenschaft-und-technologie-w-t/cyber-defence_campus.html), supervised by [Dr. Humbert](https://www.mhumbert.com/). There, I did research on **Machine Unlearning** and **membership inference attacks** against generative models.
 
