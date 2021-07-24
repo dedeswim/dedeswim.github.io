@@ -23,10 +23,10 @@ date_format = "Jan 2006"
   company_url = "https://bloomberg.com"
   location = "London, UK"
   date_start = "2021-07-01"
-  date_end = "2021-09-21"
+  date_end = "2021-09-25"
   description = """
 
-  Incoming intern, project and team TBD.
+  Summer Intern in the MARS - Multi Asset Risk System team.
   """
 
 [[experience]]
