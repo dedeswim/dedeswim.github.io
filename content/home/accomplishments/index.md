@@ -19,6 +19,16 @@ date_format = "2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  organization = "ICLR 2021 Workshop on Security and Safety in Machine Learning Systems"
+  organization_url = "https://iclr21-secml-workshop.github.io/"
+  title = "Best Paper Honorable Mention Award"
+  url = ""
+  certificate_url = ""
+  date_start = "2021-05-08"
+  date_end = ""
+  description = "For the RobustBench paper. With a 500$ travel grant prize."
+
+[[item]]
   organization = "Turin Polytechnic University"
   organization_url = "https://www.polito.it"
   title = "PoliTong Scholarship"
