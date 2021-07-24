@@ -26,7 +26,7 @@ date_format = "Jan 2006"
   date_end = "2021-09-25"
   description = """
 
-  Summer Intern in the MARS - Multi Asset Risk System team.
+  Working on a distributed system in the Multi Asset Risk System team.
   """
 
 [[experience]]

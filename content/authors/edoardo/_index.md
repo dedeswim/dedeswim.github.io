@@ -75,7 +75,7 @@ user_groups:
 
 My research interest is **Trustworthy ML** in its different aspects. I am currently working with the team of **[RobustBench](https://robustbench.github.io)**, a standardized benchmark for adversarial robustness under different threat models.
 
-I am currently working as a **Software Engineering Intern** at **[Bloomberg LP](https://www.bloomberg.com/)**, in London. I am working on MARS - Multi Asset Risk System.
+I am currently working as a **Software Engineering Intern** at **[Bloomberg LP](https://www.bloomberg.com/)**, in London. Working on a distributed system in the Multi Asset Risk System team.
 
 During the Fall 2020 semester, I was a Research Intern at [armasuisse CYD Campus](https://www.ar.admin.ch/en/armasuisse-wissenschaft-und-technologie-w-t/cyber-defence_campus.html), supervised by [Dr. Humbert](https://www.mhumbert.com/). There, I did research on **Machine Unlearning** and **membership inference attacks** against generative models.
 
