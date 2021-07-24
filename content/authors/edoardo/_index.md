@@ -77,7 +77,7 @@ My research interest lies in **Trustworthy ML** in its different aspects. I am c
 
 I am currently working as a **Software Engineering Intern** at **[Bloomberg LP](https://www.bloomberg.com/)**, in London. I am working on MARS - Multi Asset Risk System.
 
-During the Fall 2020, I was a Research Intern at [armasuisse CYD Campus](https://www.ar.admin.ch/en/armasuisse-wissenschaft-und-technologie-w-t/cyber-defence_campus.html), supervised by [Dr. Humbert](https://www.mhumbert.com/). There, I did research on **Machine Unlearning** and **membership inference attacks** against generative models.
+During the Fall 2020 semester, I was a Research Intern at [armasuisse CYD Campus](https://www.ar.admin.ch/en/armasuisse-wissenschaft-und-technologie-w-t/cyber-defence_campus.html), supervised by [Dr. Humbert](https://www.mhumbert.com/). There, I did research on **Machine Unlearning** and **membership inference attacks** against generative models.
 
 During the Spring 2020 semester, I did a **research project** at [Prof. Troncoso](http://carmelatroncoso.com/) [SPRING Lab](https://www.epfl.ch/labs/spring/), where I worked on influence functions with the aim of **counteracting deepfakes**.
 
