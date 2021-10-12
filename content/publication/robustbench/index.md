@@ -14,13 +14,13 @@ publishDate: 2021-03-29T10:44:04+02:00
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "ICLR 2021 Workshop on Security and Safety in Machine Learning Systems"
-publication_short: "ICLR 2021 MLSec Workshop"
+publication: "Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track"
+publication_short: "NeurIPS 2021 Datasets and Benchmarks Track"
 
-abstract: "Evaluation of adversarial robustness is often error-prone leading to overestimation of the true robustness of models. Our goal is to establish a *standardized benchmark* of adversarial robustness, which as accurately as possible reflects the robustness of the considered models within a reasonable computational budget. This requires to impose some restrictions on the admitted models to rule out defenses that only make gradient-based attacks ineffective without improving actual robustness. We evaluate robustness of models for our benchmark with AutoAttack, an ensemble of white- and black-box attacks which was recently shown to improve almost all robustness evaluations compared to the original publications. Our leaderboard aims at reflecting the current state of the art in the $\\ell_\\infty$- and $\\ell_2$-threat models and on common image corruptions, with possible extensions in the future. Additionally, we open-source a library that provides unified access to state-of-the-art robust models to facilitate their downstream applications. Finally, we analyze general trends in $\\ell_p$-robustness and its impact on other tasks such as robustness to various distribution shifts and out-of-distribution detection."
+abstract: "As a research community, we are still lacking a systematic understanding of the progress on adversarial robustness which often makes it hard to identify the most promising ideas in training robust models. A key challenge in benchmarking robustness is that its evaluation is often error-prone leading to robustness overestimation. Our goal is to establish a standardized benchmark of adversarial robustness, which as accurately as possible reflects the robustness of the considered models within a reasonable computational budget. To this end, we start by considering the image classification task and introduce restrictions (possibly loosened in the future) on the allowed models and evaluate adversarial robustness with AutoAttack, an ensemble of white- and black-box attacks, which was recently shown in a large-scale study to improve almost all robustness evaluations compared to the original publications. To prevent overadaptation of new defenses to AutoAttack, we welcome external evaluations based on adaptive attacks, especially where AutoAttack flags a potential overestimation of robustness. Our leaderboard, hosted at https://robustbench.github.io/, contains evaluations of 120+ models and aims at reflecting the current state of the art in image classification on a set of well-defined tasks in - and -threat models and on common corruptions, with possible extensions in the future. Additionally, we open-source the library https://github.com/RobustBench/robustbench that provides unified access to 80+ robust models to facilitate their downstream applications. Finally, based on the collected models, we analyze the impact of robustness on the performance on distribution shifts, calibration, out-of-distribution detection, fairness, privacy leakage, smoothness, and transferability. "
 
 # Summary. An optional shortened abstract.
 summary: ""
@@ -37,7 +37,7 @@ featured: true
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: "https://arxiv.org/abs/2010.09670"
+url_pdf: "https://openreview.net/forum?id=SSKZPJCt7B"
 url_code: "https://github.com/RobustBench/robustbench"
 url_dataset:
 url_poster:

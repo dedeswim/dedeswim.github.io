@@ -26,7 +26,7 @@ date_format = "Jan 2006"
   date_end = "2021-09-25"
   description = """
 
-  Working on a distributed system in the Multi Asset Risk System team.
+  * Worked in the Multi Asset Risk System team, on the re‑design and implementation of the configuration of a distributed logging library.
   """
 
 [[experience]]

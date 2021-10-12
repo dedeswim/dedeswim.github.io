@@ -73,15 +73,13 @@ user_groups:
 
 [Hello there](https://knowyourmeme.com/memes/hello-there)! I am **Edoardo**, a **Computer Science M.Sc.** student at [**EPFL**](https://epfl.ch/en), with a strong focus on **Machine Learning and Security**. I earned a Computer Engineering B.Sc. at [**PoliTo**](https://www.polito.it/), after spending my sophomore year as an exchange student at [Tongji University (**同济大学**)](https://en.tongji.edu.cn/) in Shanghai, supported by [PoliTong](https://www.polito.it/international/partnership/politecnico_nel_mondo/politong/index.php?lang=en) scholarship.
 
-My research interest is **Trustworthy ML** in its different aspects. I am currently working with the team of **[RobustBench](https://robustbench.github.io)**, a standardized benchmark for adversarial robustness under different threat models.
+My research interest is **Trustworthy ML** in its different aspects.
 
-I am currently working as a **Software Engineering Intern** at **[Bloomberg LP](https://www.bloomberg.com/)**, in London. Working on a distributed system in the Multi Asset Risk System team.
+I am currently working on my Master thesis about the robustness ov Vision Transformers in [Prof. Mittal](http://www.princeton.edu/~pmittal/)'s lab at Princeton University, and I am one of the co-authors and maintainers of **[RobustBench](https://robustbench.github.io)**, a standardized benchmark for adversarial robustness.
 
-During the Fall 2020 semester, I was a Research Intern at [armasuisse CYD Campus](https://www.ar.admin.ch/en/armasuisse-wissenschaft-und-technologie-w-t/cyber-defence_campus.html), supervised by [Dr. Humbert](https://www.mhumbert.com/). There, I did research on **Machine Unlearning** and **membership inference attacks** against generative models.
+Last summer I worked as a **Software Engineering Intern** at **[Bloomberg LP](https://www.bloomberg.com/)**, and previously, during the Fall 2020 semester, I was a Research Intern at [armasuisse CYD Campus](https://www.ar.admin.ch/en/armasuisse-wissenschaft-und-technologie-w-t/cyber-defence_campus.html), supervised by [Dr. Humbert](https://www.mhumbert.com/).
 
 During the Spring 2020 semester, I did a **research project** at [Prof. Troncoso](http://carmelatroncoso.com/) [SPRING Lab](https://www.epfl.ch/labs/spring/), where I worked on influence functions with the aim of **counteracting deepfakes**.
-
-During the next semester, I will work on my Master thesis with [Prof. Mittal](http://www.princeton.edu/~pmittal/), at Princeton University. The topic will be the robustness of Vision Transformers.
 
 I attended [**Military Navy College** "F. Morosini"](http://www.marina.difesa.it/EN/training_institute/morosini/Pagine/default.aspx), in Venice, I am a member of [LeadTheFuture](https://leadthefuture.tech), the leading mentoring program for STEM students in Italy, and I have been junior entrepreneur at [JEToP](https://jetop.com).
 
