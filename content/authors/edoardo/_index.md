@@ -75,7 +75,7 @@ user_groups:
 
 My research interest is **Trustworthy ML** in its different aspects.
 
-I am currently working on my Master thesis about the robustness ov Vision Transformers in [Prof. Mittal](http://www.princeton.edu/~pmittal/)'s lab at Princeton University, and I am one of the co-authors and maintainers of **[RobustBench](https://robustbench.github.io)**, a standardized benchmark for adversarial robustness.
+I am currently working on my Master thesis about the robustness of Vision Transformers in [Prof. Mittal](http://www.princeton.edu/~pmittal/)'s lab at Princeton University, and I am one of the co-authors and maintainers of **[RobustBench](https://robustbench.github.io)**, a standardized benchmark for adversarial robustness.
 
 Last summer I worked as a **Software Engineering Intern** at **[Bloomberg LP](https://www.bloomberg.com/)**, and previously, during the Fall 2020 semester, I was a Research Intern at [armasuisse CYD Campus](https://www.ar.admin.ch/en/armasuisse-wissenschaft-und-technologie-w-t/cyber-defence_campus.html), supervised by [Dr. Humbert](https://www.mhumbert.com/).
 
