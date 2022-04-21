@@ -2,10 +2,10 @@
 name = "Mono"
 
 # Optional Google font URL
-google_fonts = "Bebas+Neue|IBM+Plex+Mono"
+google_fonts = "family=Fira+Code:wght@400&family=Fira+Sans:wght@400:700"
 
 # Font families
-heading_font = "Bebas Neue"
-body_font = "IBM Plex Mono"
-nav_font = "IBM Plex Mono"
-mono_font = "IBM Plex Mono"
+heading_font = "Fira Sans"
+body_font = "Fira Code"
+nav_font = "Fira Code"
+mono_font = "Fira Code"

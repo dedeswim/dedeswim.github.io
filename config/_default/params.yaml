@@ -1,0 +1,103 @@
+# Appearance
+
+appearance:
+  theme_day: minimal
+  theme_night: minimal
+  font: Mono
+  font_size: M
+
+# SEO
+
+marketing:
+  seo:
+    site_type: Person
+    local_business_type: ''
+    org_name: ''
+    description: 'PhD Student at ETH Zürich'
+    twitter: 'edoardo_debe'
+  analytics:
+    google_analytics: ''
+    baidu_tongji: ''
+  verification:
+    google: ''
+    baidu: ''
+
+# Site header
+
+header:
+  navbar:
+    enable: true
+    align: l
+    show_logo: false
+    show_language: false
+    show_day_night: true
+    show_search: true
+    highlight_active_link: true
+
+footer:
+  copyright:
+    notice: '© {year} Me. This work is licensed under {license}'
+    license:
+      enable: true
+      allow_derivatives: true
+      share_alike: true
+      allow_commercial: false
+
+# Localization
+
+locale:
+  date_format: 'Jan 2, 2006'
+  time_format: '13:04'
+  address_format: en-us
+
+# Site features
+
+features:
+  syntax_highlighter:
+    enable: true
+    extra_languages:
+      - r
+      - latex
+  math:
+    enable: true
+  diagram:
+    enable: false
+  privacy_pack:
+    enable: false
+  repository:
+    url: 'https://github.com/dedeswim/dedeswim.github.io'
+    content_dir: content
+    branch: master
+  avatar:
+    gravatar: false
+    shape: circle
+  comment:
+    provider: ''
+    disqus:
+      shortname: ''
+      show_count: true
+    commento:
+      url: ''
+  search:
+    provider: wowchemy
+    algolia:
+      app_id: ''
+      api_key: ''
+      index_name: ''
+      show_logo: false
+  map:
+    provider: ''
+    api_key: ''
+    zoom: 15
+
+# Extensions
+
+extensions:
+  cms:
+    branch: master
+    local_backend: false
+  isotope:
+    # Enable if you use the Portfolio widget or Publication filter
+    enable: true
+  academicons:
+    enable: true

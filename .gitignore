@@ -50,3 +50,4 @@ Temporary Items
 *.code-workspace
 
 # End of https://www.toptal.com/developers/gitignore/api/vscode,hugo,macos
+.hugo_build.lock
