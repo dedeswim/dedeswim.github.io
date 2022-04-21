@@ -26,7 +26,7 @@ date_format = "2006"
   certificate_url = ""
   date_start = "2021-05-08"
   date_end = ""
-  description = "For the RobustBench paper. With a 500$ travel grant prize."
+  description = "For a preliminary version of the RobustBench paper. With a 500$ travel grant prize."
 
 [[item]]
   organization = "Turin Polytechnic University"

@@ -10,29 +10,32 @@ authors:
 superuser: true
 
 # Role/position
-role: M.Sc. in Computer Science Student
+role: M.Sc. in Computer Science Student | Incoming PhD Student at ETH Zürich
 
 # Organizations/Affiliations
 organizations:
-- name: EPFL
+- name: EPFL | Incoming at ETH Zürich
   url: "https://epfl.ch/en"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include Machine Learning and Security.
 
 interests:
-- Trustworthy Machine Learning
+- Security and Privacy of Machin Learning
 
 education:
   courses:
-  - course: M.Sc. in Computer Science 🇨🇭
-    institution: EPFL - Swiss Federal Institute of Technology, Lausanne, Switzerland
+  - course: Ph.D. in Computer Science
+    institution: ETH Zürich - Swiss Federal Institute of Technology, Zürich, Switzerland 🇨🇭
+    year: To begin in 8/2022
+  - course: M.Sc. in Computer Science
+    institution: EPFL - Swiss Federal Institute of Technology, Lausanne, Switzerland 🇨🇭
     year: 2019-2022 (exp.)
-  - course: B.Sc. in Computer Engineering 🇮🇹
-    institution: PoliTo - Turin Polytechic University, Italy
+  - course: B.Sc. in Computer Engineering
+    institution: PoliTo - Politecnico di Torino, Italy 🇮🇹
     year: 2016-2019
-  - course: Exchange Year 🇨🇳
-    institution: Tongji University, Shanghai, China
+  - course: Exchange Year
+    institution: Tongji University, Shanghai, China 🇨🇳
     year: 2017-2018
 
 # Social/Academic Networking
