@@ -10,18 +10,18 @@ authors:
 superuser: true
 
 # Role/position
-role: M.Sc. in Computer Science Student | Incoming PhD Student at ETH Zürich
+role: Incoming Computer Science PhD Student
 
 # Organizations/Affiliations
 organizations:
-- name: EPFL | Incoming at ETH Zürich
-  url: "https://epfl.ch/en"
+- name: ETH Zürich
+  url: "https://ethz.ch/en"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include Machine Learning and Security.
 
 interests:
-- Security and Privacy of Machin Learning
+- Security and Privacy of Machine Learning in the real-world
 
 education:
   courses:
@@ -52,6 +52,12 @@ social:
 - icon: cv
   icon_pack: ai
   link: /cv.pdf
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=6Urve9wAAAAJ&hl=en
+- icon: semantic-scholar
+  icon_pack: ai
+  link: https://www.semanticscholar.org/author/2122900760
 - icon: envelope
   icon_pack: fas
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
@@ -69,21 +75,14 @@ email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-- Researchers
-- Visitors
+# user_groups:
+# - 
 ---
 
-[Hello there](https://knowyourmeme.com/memes/hello-there)! I am **Edoardo**, a **Computer Science M.Sc.** student at [**EPFL**](https://epfl.ch/en), with a strong focus on **Machine Learning and Security**. I earned a Computer Engineering B.Sc. at [**PoliTo**](https://www.polito.it/), after spending my sophomore year as an exchange student at [Tongji University (**同济大学**)](https://en.tongji.edu.cn/) in Shanghai, supported by [PoliTong](https://www.polito.it/international/partnership/politecnico_nel_mondo/politong/index.php?lang=en) scholarship.
+I am an incoming **Computer Science Ph.D. Student** at ETH Zürich, advised by [Florian Tramèr](https://floriantramer.com). My interest is in how the current (and future) research about the security and privacy of machine learning systems can be applied to real-world systems. My aim is to understand what the threat models look like in the real-world, and, based on that, understand which attacks are feasible, and what defenses are most effective.
 
-My research interest is **Trustworthy ML** in its different aspects.
+I earned a **Computer Science M.Sc.** at [**EPFL**](https://epfl.ch/en), with a strong focus on **Machine Learning and Security**, and a Computer Engineering B.Sc. at [**PoliTo**](https://www.polito.it/). I did my Master thesis about the robustness of Vision Transformers supervised by Princeton University's [Prof. Mittal](http://www.princeton.edu/~pmittal/), and I am one of the co-authors and maintainers of **[RobustBench](https://robustbench.github.io)**, a standardized benchmark for adversarial robustness.
 
-I am currently working on my Master thesis about the robustness of Vision Transformers in [Prof. Mittal](http://www.princeton.edu/~pmittal/)'s lab at Princeton University, and I am one of the co-authors and maintainers of **[RobustBench](https://robustbench.github.io)**, a standardized benchmark for adversarial robustness.
-
-Last summer I worked as a **Software Engineering Intern** at **[Bloomberg LP](https://www.bloomberg.com/)**, and previously, during the Fall 2020 semester, I was a Research Intern at [armasuisse CYD Campus](https://www.ar.admin.ch/en/armasuisse-wissenschaft-und-technologie-w-t/cyber-defence_campus.html), supervised by [Dr. Humbert](https://www.mhumbert.com/).
-
-During the Spring 2020 semester, I did a **research project** at [Prof. Troncoso](http://carmelatroncoso.com/) [SPRING Lab](https://www.epfl.ch/labs/spring/), where I worked on influence functions with the aim of **counteracting deepfakes**.
+I had internship experiences at **[Bloomberg LP](https://www.bloomberg.com/)**, as an SWE intern, and at [armasuisse CYD Campus](https://www.ar.admin.ch/en/armasuisse-wissenschaft-und-technologie-w-t/cyber-defence_campus.html), as a Research Intern, supervised by [Prof. Humbert](https://www.mhumbert.com/).
 
 I attended [**Military Navy College** "F. Morosini"](http://www.marina.difesa.it/EN/training_institute/morosini/Pagine/default.aspx), in Venice, I am a member of [LeadTheFuture](https://leadthefuture.tech), the leading mentoring program for STEM students in Italy, and I have been junior entrepreneur at [JEToP](https://jetop.com).
-
-I love swimming, sailing, and travelling.

@@ -2,10 +2,10 @@
 name = "Mono"
 
 # Optional Google font URL
-google_fonts = "family=Fira+Code:wght@400&family=Fira+Sans:wght@400:700"
+google_fonts = "family=Fira+Sans&family=Fira+Code"
 
 # Font families
 heading_font = "Fira Sans"
-body_font = "Fira Code"
-nav_font = "Fira Code"
-mono_font = "Fira Code"
+body_font = "Fira Sans"
+nav_font = "Fira Sans"
+mono_font = "Fira Sans"
