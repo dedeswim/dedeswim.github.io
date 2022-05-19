@@ -30,13 +30,13 @@ education:
     year: To begin in 8/2022
   - course: M.Sc. in Computer Science
     institution: EPFL - Swiss Federal Institute of Technology, Lausanne, Switzerland 🇨🇭
-    year: 2019-2022 (exp.)
+    year: 2019 - 2022
   - course: B.Sc. in Computer Engineering
     institution: PoliTo - Politecnico di Torino, Italy 🇮🇹
-    year: 2016-2019
+    year: 2016 - 2019
   - course: Exchange Year
     institution: Tongji University, Shanghai, China 🇨🇳
-    year: 2017-2018
+    year: 2017 - 2018
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
