@@ -79,7 +79,7 @@ email: ""
 # - 
 ---
 
-I am an incoming **Computer Science Ph.D. Student** at ETH Zürich, advised by [Florian Tramèr](https://floriantramer.com). My interest is in how the current (and future) research about the security and privacy of machine learning systems can be applied to real-world systems. My aim is to understand what the threat models look like in the real-world, and, based on that, understand which attacks are feasible, and what defenses are most effective.
+I am a **Computer Science Ph.D. Student** at ETH Zürich, advised by [Florian Tramèr](https://floriantramer.com). My interest is in how the current (and future) research about the security and privacy of machine learning systems can be applied to real-world systems. My aim is to understand what the threat models look like in the real-world, and, based on that, understand which attacks are feasible, and what defenses are most effective.
 
 I earned a **Computer Science M.Sc.** at [**EPFL**](https://epfl.ch/en), with a strong focus on **Machine Learning and Security**, and a Computer Engineering B.Sc. at [**PoliTo**](https://www.polito.it/). I did my Master thesis about the robustness of Vision Transformers supervised by Princeton University's [Prof. Mittal](http://www.princeton.edu/~pmittal/), and I am one of the co-authors and maintainers of **[RobustBench](https://robustbench.github.io)**, a standardized benchmark for adversarial robustness.
 
