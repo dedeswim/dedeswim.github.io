@@ -16,8 +16,8 @@ publishDate: 2022-05-12T12:33:57Z
 publication_types: ["7"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Adversarially Robust Vision Transformers"
-publication_short: ""
+publication: "Federal Institute of Technology Lausanne"
+publication_short: "EPFL"
 
 abstract: "Machine learning models are vulnerable to adversarial examples: perturbations added to benign inputs in order to fool a model into making a wrong prediction. The most successful approach to defend against adversarial examples is adversarial training, a training technique which is theoretically principled and highly effective in practice. Adversarially trained models are more robust to adversarial perturbations, albeit at the expense of the accuracy on clean samples, leading to a robustness-accuracy trade-off. Currently, the community resorts to deeper and wider models to improve this trade-off, hence decreasing the efficiency and practicality of adversarial training. In this work we show that, by switching to Vision Transformers (in particular XCiT, a Vision Transformer variation) than the ones most commonly used (ResNets and WideResNets), we can improve this trade-off without the need to use larger models, hence improving the practicality of adversarial training. We manage to do so by finding a tailored adversarial training recipe -different from the default recipe for standard training- which leads to state-of-the-art results by a significant margin. We also show that this setup scales to larger variants of XCiT, and that models trained with this setup can be fine-tuned on other smaller datasets, such as CIFAR-10, Caltech-101, and Oxford Flowers. Moreover, we compare the adversarial perturbations of our robust XCiT to those of a robust ResNet, quantifying that the former captures more semantic attributes than the latter. To the best of our knowledge, this is the first work to establish superiority of Vision Transformer over CNNs in robust machine learning. Thus, we highly recommend the use of ViTs for adversarial training."
 
