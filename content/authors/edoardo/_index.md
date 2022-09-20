@@ -57,7 +57,7 @@ social:
   link: https://scholar.google.com/citations?user=6Urve9wAAAAJ&hl=en
 - icon: semantic-scholar
   icon_pack: ai
-  link: https://www.semanticscholar.org/author/2122900760
+  link: https://www.semanticscholar.org/author/2175939276
 - icon: envelope
   icon_pack: fas
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
