@@ -25,9 +25,17 @@ content:
       captcha: false
 
   # Contact details (edit or remove options as required)
-  email: edoardo.m.debenedetti@gmail.com
-  appointment_url: 'https://calendly.com/edoardo-debenedetti/30min'
+  # email: edoardo.m.debenedetti@gmail.com
+  # appointment_url: 'https://calendly.com/edoardo-debenedetti/30min'
   contact_links:
+    - icon: envelope
+      icon_pack: fas
+      name: edebenedetti@ethz.ch (academic)
+      link: 'mailto:edebenedetti@ethz.ch'
+    - icon: inbox
+      icon_pack: fas
+      name: edoardo.m.debenedetti@gmail.com (personal)
+      link: 'edoardo.m.debenedetti@gmail.com'
     - icon: twitter
       icon_pack: fab
       name: DM Me
