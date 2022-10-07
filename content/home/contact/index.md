@@ -30,11 +30,11 @@ content:
   contact_links:
     - icon: envelope
       icon_pack: fas
-      name: edebenedetti@ethz.ch (academic)
-      link: 'mailto:edebenedetti@ethz.ch'
+      name: edebenedetti@inf.ethz.ch (academic stuff)
+      link: 'mailto:edebenedetti@inf.ethz.ch'
     - icon: inbox
       icon_pack: fas
-      name: edoardo.m.debenedetti@gmail.com (personal)
+      name: edoardo.m.debenedetti@gmail.com (personal stuff)
       link: 'edoardo.m.debenedetti@gmail.com'
     - icon: twitter
       icon_pack: fab

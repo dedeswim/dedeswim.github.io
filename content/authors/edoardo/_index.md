@@ -15,7 +15,7 @@ role: Incoming Computer Science PhD Student
 # Organizations/Affiliations
 organizations:
 - name: ETH Zürich
-  url: "https://ethz.ch/en"
+  url: "https://inf.ethz.ch/en"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include Machine Learning and Security.
