@@ -16,8 +16,8 @@ publishDate: 2022-09-20T15:33:16Z
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "IEEE Conference on Secure and Trustworthy Machine Learning"
-publication_short: "IEEE SaTML"
+publication: "First IEEE Conference on Secure and Trustworthy Machine Learning"
+publication_short: "IEEE SaTML 2023"
 
 abstract: "In this paper, we ask whether Vision Transformers (ViTs) can serve as an underlying architecture for improving the adversarial robustness of machine learning models against evasion attacks. While earlier works have focused on improving Convolutional Neural Networks, we show that also ViTs are highly suitable for adversarial training to achieve competitive performance. We achieve this objective using a custom adversarial training recipe, discovered using rigorous ablation studies on a subset of the ImageNet dataset. The canonical training recipe for ViTs recommends strong data augmentation, in part to compensate for the lack of vision inductive bias of attention modules, when compared to convolutions. We show that this recipe achieves suboptimal performance when used for adversarial training. In contrast, we find that omitting all heavy data augmentation, and adding some additional bag-of-tricks (ε-warmup and larger weight decay), significantly boosts the performance of robust ViTs. We show that our recipe generalizes to different classes of ViT architectures and large-scale models on full ImageNet-1k. Additionally, investigating the reasons for the robustness of our models, we show that it is easier to generate strong attacks during training when using our recipe and that this leads to better robustness at test time. Finally, we further study one consequence of adversarial training by proposing a way to quantify the semantic nature of adversarial perturbations and highlight its correlation with the robustness of the model. Overall, we recommend that the community should avoid translating the canonical training recipes in ViTs to robust training and rethink common training choices in the context of adversarial training."
 
@@ -39,11 +39,11 @@ featured: true
 url_pdf: https://arxiv.org/abs/2209.07399
 url_code: https://github.com/dedeswim/vits-robustness-torch
 url_dataset:
-url_poster:
+url_poster: /publications/light_recipe/poster.pdf
 url_project:
-url_slides:
+url_slides: /publications/light_recipe/slides.pdf
 url_source:
-url_video:
+url_video: https://www.youtube.com/watch?v=2UY85XlJcHY
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
