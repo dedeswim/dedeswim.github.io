@@ -1,3 +1,5 @@
+**[06/2023 - New paper: *Evading Black-box Classifiers Without Breaking Eggs*]**  We uploaded on arXiv a new paper, where we propose a new real-world oriented metric for black-box decision-based attacks on security-critical systems. Take a look [here](https://arxiv.org/abs/2306.02895)!
+
 **[11/2022 - *A Light Recipe to Train Robust Vision Transformers* accepted at SaTML]** The paper derived from my master thesis was accepted at the [IEEE Conference on Secure and Trustworthy Machine Learning](https://satml.org) (SaTML). I'm looking forward to presenting my paper in February!
 
 **[09/2022 - New paper: *A Light Recipe to Train Robust Vision Transformers*]**  We uploaded on arXiv the paper derived from my Master's thesis, with additional experiments and insights. Take a look [here](https://arxiv.org/abs/2209.07399)!
