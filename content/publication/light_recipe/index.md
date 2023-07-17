@@ -39,9 +39,9 @@ featured: true
 url_pdf: https://arxiv.org/abs/2209.07399
 url_code: https://github.com/dedeswim/vits-robustness-torch
 url_dataset:
-url_poster: /publications/light_recipe/poster.pdf
+url_poster: poster.pdf
 url_project:
-url_slides: /publications/light_recipe/slides.pdf
+url_slides: slides.pdf
 url_source:
 url_video: https://www.youtube.com/watch?v=2UY85XlJcHY
 

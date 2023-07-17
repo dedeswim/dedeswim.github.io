@@ -36,7 +36,7 @@ featured: true
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: /thesis.pdf
+url_pdf: thesis.pdf
 url_code:
 url_dataset:
 url_poster:
