@@ -2,6 +2,10 @@
 # Display name
 title: Edoardo Debenedetti
 
+# Full name (for SEO)
+first_name: Edoardo
+last_name: Debenedetti
+
 # Username (this should match the folder name)
 authors:
 - edoardo
@@ -27,16 +31,16 @@ education:
   courses:
   - course: Ph.D. in Computer Science
     institution: ETH Zürich - Swiss Federal Institute of Technology, Zürich, Switzerland 🇨🇭
-    year: To begin in 8/2022
+    year: 2022 - Ongoing
   - course: M.Sc. in Computer Science
     institution: EPFL - Swiss Federal Institute of Technology, Lausanne, Switzerland 🇨🇭
     year: 2019 - 2022
   - course: B.Sc. in Computer Engineering
     institution: PoliTo - Politecnico di Torino, Italy 🇮🇹
     year: 2016 - 2019
-  - course: Exchange Year
-    institution: Tongji University, Shanghai, China 🇨🇳
-    year: 2017 - 2018
+  # - course: Exchange Year
+  #   institution: Tongji University, Shanghai, China 🇨🇳
+  #   year: 2017 - 2018
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -72,6 +76,8 @@ social:
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
+
+highlight_name: true
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

@@ -13,11 +13,11 @@ publishDate: 2023-06-06T15:33:16Z
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "arXiv"
-publication_short: "arXiv"
+publication: "ICML 2023 Workshop on Frontiers in AdvML, **Oral presentation**"
+publication_short: "ICML 2023 Workshop on Frontiers in AdvML, **Oral presentation**"
 
 abstract: "Decision-based evasion attacks repeatedly query a black-box classifier to generate adversarial examples. Prior work measures the cost of such attacks by the total number of queries made to the classifier. We argue this metric is flawed. Most security-critical machine learning systems aim to weed out \"bad\" data (e.g., malware, harmful content, etc). Queries to such systems carry a fundamentally *asymmetric cost*: queries detected as \"bad\" come at a higher cost because they trigger additional security filters, e.g., usage throttling or account suspension. Yet, we find that existing decision-based attacks issue a large number of \"bad\" queries, which likely renders them ineffective against security-critical systems. We then design new attacks that reduce the number of bad queries by $1.5$-$7.3\\times$, but often at a significant increase in total (non-bad) queries. We thus pose it as an open problem to build black-box attacks that are more effective under realistic cost metrics."
 
@@ -37,7 +37,7 @@ featured: true
 #   icon: twitter
 
 url_pdf: https://arxiv.org/abs/2306.02895
-url_code: https://github.com/ethz-privsec/realistic-adv-examples
+url_code: https://github.com/ethz-spylab/realistic-adv-examples
 url_dataset:
 url_poster:
 url_project:
