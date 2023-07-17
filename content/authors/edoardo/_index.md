@@ -20,12 +20,16 @@ role: Computer Science PhD Student
 organizations:
 - name: ETH Zürich
   url: "https://inf.ethz.ch/"
+- name: SPY Lab
+  url: "https://spylab.ai/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include Machine Learning and Security.
 
 interests:
-- Security and Privacy of Machine Learning in the real-world
+- Real-world Machine Learning evasion attacks
+- Privacy in Machine Learning
+- Security of Large Language Models
 
 education:
   courses:
@@ -53,9 +57,6 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://linkedin.com/in/edoardo-debenedetti
-- icon: cv
-  icon_pack: ai
-  link: /cv.pdf
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=6Urve9wAAAAJ&hl=en
@@ -64,7 +65,7 @@ social:
   link: https://www.semanticscholar.org/author/2175939276
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:edebenedetti@inf.ethz.ch'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/edoardo_debe
@@ -85,10 +86,10 @@ highlight_name: true
 # - 
 ---
 
-I am a **Computer Science Ph.D. Student** at ETH Zürich, advised by [Florian Tramèr](https://floriantramer.com). My interest is in how the current (and future) research about the security and privacy of machine learning systems can be applied to real-world systems. My aim is to understand what the threat models look like in the real-world, and, based on that, understand which attacks are feasible, and what defenses are most effective.
+I am a **Computer Science Ph.D. Student** at ETH Zürich in the [Secure and Private AI (SPY) Lab](https://spylab.ai), advised by [Florian Tramèr](https://floriantramer.com). My interest is in how the current (and future) research about the security and privacy of machine learning systems can be applied to real-world systems. My aim is to understand what the threat models look like in the real-world, and, based on that, understand which attacks are feasible, and what defenses are most effective.
 
 I earned a **Computer Science M.Sc.** at [**EPFL**](https://epfl.ch/en), with a strong focus on **Machine Learning and Security**, and a Computer Engineering B.Sc. at [**PoliTo**](https://www.polito.it/). I did my Master thesis about the robustness of Vision Transformers supervised by Princeton University's [Prof. Mittal](http://www.princeton.edu/~pmittal/), and I am one of the co-authors and maintainers of **[RobustBench](https://robustbench.github.io)**, a standardized benchmark for adversarial robustness.
 
-I had internship experiences at **[Bloomberg LP](https://www.bloomberg.com/)**, as an SWE intern, and at [armasuisse CYD Campus](https://www.ar.admin.ch/en/armasuisse-wissenschaft-und-technologie-w-t/cyber-defence_campus.html), as a Research Intern, supervised by [Prof. Humbert](https://www.mhumbert.com/).
+I previously interned at **[Bloomberg LP](https://www.bloomberg.com/)**, as an SWE intern, and at [armasuisse CYD Campus](https://www.ar.admin.ch/en/armasuisse-wissenschaft-und-technologie-w-t/cyber-defence_campus.html), as a Research Intern, supervised by [Prof. Humbert](https://www.mhumbert.com/).
 
-I attended [**Military Navy College** "F. Morosini"](http://www.marina.difesa.it/EN/training_institute/morosini/Pagine/default.aspx), in Venice, I am a member of [LeadTheFuture](https://leadthefuture.tech), the leading mentoring program for STEM students in Italy, and I have been junior entrepreneur at [JEToP](https://jetop.com).
+More information can be found on my [CV](/files/cv.pdf).
