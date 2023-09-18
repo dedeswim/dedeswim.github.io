@@ -39,11 +39,11 @@ featured: true
 url_pdf: https://arxiv.org/abs/2306.02895
 url_code: https://github.com/ethz-spylab/realistic-adv-examples
 url_dataset:
-url_poster:
+url_poster: poster.pdf
 url_project:
-url_slides:
+url_slides: slides.pdf
 url_source:
-url_video:
+url_video: https://slideslive.com/39006203/evading-blackbox-classifiers-without-breaking-eggs?ref=speaker-22359
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
