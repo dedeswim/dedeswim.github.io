@@ -86,10 +86,10 @@ highlight_name: true
 # - 
 ---
 
-I am a **Computer Science Ph.D. Student** at ETH Zürich in the [Secure and Private AI (SPY) Lab](https://spylab.ai), advised by [Florian Tramèr](https://floriantramer.com). My interest is in how the current (and future) research about the security and privacy of machine learning systems can be applied to real-world systems. My aim is to understand what the threat models look like in the real-world, and, based on that, understand which attacks are feasible, and what defenses are most effective.
+I am a **Computer Science Ph.D. Student** at ETH Zürich in the [Secure and Private AI (SPY) Lab](https://spylab.ai), advised by [Florian Tramèr](https://floriantramer.com). My interest is in how the current (and future) research about the security and privacy of machine learning systems can be applied to real-world **systems**. My research is supported by a [CYD Doctoral Fellowship](https://www.epfl.ch/research/funding/epfl-programmes/cyd/cyd-phd/) awarded by the [armasuisse Cyber-Defence Campus](https://www.cydcampus.ch/).
 
-I earned a **Computer Science M.Sc.** at [**EPFL**](https://epfl.ch/en), with a strong focus on **Machine Learning and Security**, and a Computer Engineering B.Sc. at [**PoliTo**](https://www.polito.it/). I did my Master thesis about the robustness of Vision Transformers supervised by Princeton University's [Prof. Mittal](http://www.princeton.edu/~pmittal/), and I am one of the co-authors and maintainers of **[RobustBench](https://robustbench.github.io)**, a standardized benchmark for adversarial robustness.
+Prior to my PhD journey, I earned a Computer Science M.Sc. at [**EPFL**](https://epfl.ch/en) and a Computer Engineering B.Sc. at the [**Polytechnic University of Turin**](https://www.polito.it/). I did my Master thesis about the robustness of Vision Transformers supervised by Princeton University's [Prof. Mittal](http://www.princeton.edu/~pmittal/), and I am one of the co-authors and maintainers of **[RobustBench](https://robustbench.github.io)**.
 
-I previously interned at **[Bloomberg LP](https://www.bloomberg.com/)**, as an SWE intern, and at [armasuisse CYD Campus](https://www.ar.admin.ch/en/armasuisse-wissenschaft-und-technologie-w-t/cyber-defence_campus.html), as a Research Intern, supervised by [Prof. Humbert](https://www.mhumbert.com/).
+I previously interned as an SWE intern at **[Bloomberg LP](https://www.bloomberg.com/company/values/tech-at-bloomberg/)** and as a Research Intern at the armasuisse CYD Campus, supervised by [Prof. Humbert](https://www.mhumbert.com/).
 
-More information can be found on my [CV](/files/cv.pdf).
+More information can be found on my [CV](/files/cv.pdf), last updated on 2023/09/26.
