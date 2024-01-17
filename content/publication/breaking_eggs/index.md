@@ -3,7 +3,7 @@
 
 title: "Evading Black-box Classifiers Without Breaking Eggs"
 authors: ["Edoardo Debenedetti", "Nicholas Carlini", "Florian Tramèr"]
-date: 2023-06-06T15:33:16Z
+date: 2024-01-06T15:33:16Z
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -16,8 +16,8 @@ publishDate: 2023-06-06T15:33:16Z
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "ICML 2023 Workshop on Frontiers in AdvML, **Oral presentation**"
-publication_short: "ICML 2023 Workshop on Frontiers in AdvML, **Oral presentation**"
+publication: "2nd IEEE Conference on Secure and Trustworthy Machine Learning, 2024"
+publication_short: "SaTML 2024"
 
 abstract: "Decision-based evasion attacks repeatedly query a black-box classifier to generate adversarial examples. Prior work measures the cost of such attacks by the total number of queries made to the classifier. We argue this metric is flawed. Most security-critical machine learning systems aim to weed out \"bad\" data (e.g., malware, harmful content, etc). Queries to such systems carry a fundamentally *asymmetric cost*: queries detected as \"bad\" come at a higher cost because they trigger additional security filters, e.g., usage throttling or account suspension. Yet, we find that existing decision-based attacks issue a large number of \"bad\" queries, which likely renders them ineffective against security-critical systems. We then design new attacks that reduce the number of bad queries by $1.5$-$7.3\\times$, but often at a significant increase in total (non-bad) queries. We thus pose it as an open problem to build black-box attacks that are more effective under realistic cost metrics."
 
