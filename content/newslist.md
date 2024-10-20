@@ -1,4 +1,6 @@
-**[04/2024 - Award]** *[Evading Black-box Classifiers Without Breaking Eggs](https://arxiv.org/abs/2306.02895)*, selected as Distinguished Paper Award Runner-up at IEEE SaTML 2024!
+
+
+**[04/2024 - Award]** *[Evading Black-box Classifiers Without Breaking Eggs](https:abs/2306.02895)*, selected as Distinguished Paper Award Runner-up at IEEE SaTML 2024!
 
 **[04/2024 - New Paper: *JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models*]** We have a new paper about benchmarking LLM jailbreak attacks and defenses with a focus on transparency and reproducibility. Take a look [here](https://arxiv.org/abs/2404.01318).
 
