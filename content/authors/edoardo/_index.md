@@ -86,7 +86,7 @@ highlight_name: true
 # - 
 ---
 
-I am a **Computer Science Ph.D. Student** at ETH Zürich in the [Secure and Private AI (SPY) Lab](https://spylab.ai), advised by [Florian Tramèr](https://floriantramer.com). I am also a Student Researcher in the ML Red Team at Google, working with Tianqi Fan and [Ilia Shumailov](https://www.cl.cam.ac.uk/~is410/). I am insterested in the security and privacy of machine learning *systems*. Most recently, I have been [looking into](https://agentdojo.spylab.ai) the security of LLM Agents.
+I am a **Computer Science Ph.D. Student** at ETH Zürich in the [Secure and Private AI (SPY) Lab](https://spylab.ai), advised by [Florian Tramèr](https://floriantramer.com). I am also a Student Researcher in the ML Red Team at Google, working with Tianqi Fan and [Ilia Shumailov](https://www.cl.cam.ac.uk/~is410/). I am interested in the security and privacy of machine learning *systems*. Most recently, I have been [looking into](https://agentdojo.spylab.ai) the security of LLM Agents.
 
 My research is supported by a [CYD Doctoral Fellowship](https://www.epfl.ch/research/funding/epfl-programmes/cyd/cyd-phd/) awarded by the [armasuisse Cyber-Defence Campus](https://www.cydcampus.ch/).
 
