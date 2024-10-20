@@ -38,7 +38,7 @@ featured: false
 
 url_pdf: https://arxiv.org/abs/2404.01318
 url_code: https://github.com/JailbreakBench/jailbreakbench
-url_dataset:
+url_dataset: https://huggingface.co/datasets/JailbreakBench/JBB-Behaviors
 url_poster:
 url_project: https://jailbreakbench.github.io
 url_slides:

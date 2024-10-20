@@ -1,6 +1,8 @@
+**[10/2024 - Internship]** On October 1st I started as Student Researcher in the ML Red Team at Google. I will be working with Tianqi Fan and [Ilia Shumailov](https://www.cl.cam.ac.uk/~is410/) (Google DeepMind) on AI agents security.
 
+**[09/2024 - Spotlight]** The [report](https://arxiv.org/abs/2406.07954) of our SaTML LLMs CTF has been accepted as **spotlight** at the NeurIPS D&B Track 2024! Also [AgentDojo](https://agentdojo.spylab.ai) and [JailbreakBench](https://jailbreakbench.github.io) were accepted.
 
-**[04/2024 - Award]** *[Evading Black-box Classifiers Without Breaking Eggs](https:abs/2306.02895)*, selected as Distinguished Paper Award Runner-up at IEEE SaTML 2024!
+**[04/2024 - Award]** *[Evading Black-box Classifiers Without Breaking Eggs](https://arxiv.org/abs/2306.02895)*, selected as Distinguished Paper Award Runner-up at IEEE SaTML 2024!
 
 **[04/2024 - New Paper: *JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models*]** We have a new paper about benchmarking LLM jailbreak attacks and defenses with a focus on transparency and reproducibility. Take a look [here](https://arxiv.org/abs/2404.01318).
 

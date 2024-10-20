@@ -27,9 +27,9 @@ organizations:
 bio: My research interests include Machine Learning and Security.
 
 interests:
+- Security of Large Language Model Agents
 - Real-world Machine Learning evasion attacks
 - Privacy in Machine Learning
-- Security of Large Language Models
 
 education:
   courses:
@@ -86,10 +86,14 @@ highlight_name: true
 # - 
 ---
 
-I am a **Computer Science Ph.D. Student** at ETH Zürich in the [Secure and Private AI (SPY) Lab](https://spylab.ai), advised by [Florian Tramèr](https://floriantramer.com). My interest is in how the current (and future) research about the security and privacy of machine learning systems can be applied to real-world **systems**. My research is supported by a [CYD Doctoral Fellowship](https://www.epfl.ch/research/funding/epfl-programmes/cyd/cyd-phd/) awarded by the [armasuisse Cyber-Defence Campus](https://www.cydcampus.ch/).
+I am a **Computer Science Ph.D. Student** at ETH Zürich in the [Secure and Private AI (SPY) Lab](https://spylab.ai), advised by [Florian Tramèr](https://floriantramer.com). I am also a Student Researcher in the ML Red Team at Google, working with Tianqi Fan and [Ilia Shumailov](https://www.cl.cam.ac.uk/~is410/). I am insterested in the security and privacy of machine learning *systems*. Most recently, I have been [looking into](https://agentdojo.spylab.ai) the security of LLM Agents.
 
-Prior to my PhD journey, I earned a Computer Science M.Sc. at [**EPFL**](https://epfl.ch/en) and a Computer Engineering B.Sc. at the [**Polytechnic University of Turin**](https://www.polito.it/). I did my Master thesis about the robustness of Vision Transformers supervised by Princeton University's [Prof. Mittal](http://www.princeton.edu/~pmittal/), and I am one of the co-authors and maintainers of **[RobustBench](https://robustbench.github.io)**.
+My research is supported by a [CYD Doctoral Fellowship](https://www.epfl.ch/research/funding/epfl-programmes/cyd/cyd-phd/) awarded by the [armasuisse Cyber-Defence Campus](https://www.cydcampus.ch/).
 
-I previously interned as an SWE intern at **[Bloomberg LP](https://www.bloomberg.com/company/values/tech-at-bloomberg/)** and as a Research Intern at the armasuisse CYD Campus, supervised by [Prof. Humbert](https://www.mhumbert.com/).
+Prior to my PhD, I earned a Computer Science M.Sc. at [**EPFL**](https://epfl.ch/en) and a Computer Engineering B.Sc. at the [**Polytechnic University of Turin**](https://www.polito.it/).
 
-More information can be found on my [CV](/files/cv.pdf), last updated on 2023/09/26.
+Outside of my studies, I interned as a SWE intern at **[Bloomberg LP](https://www.bloomberg.com/company/values/tech-at-bloomberg/)** and as a Research Intern at the armasuisse CYD Campus, supervised by [Prof. Humbert](https://www.mhumbert.com/).
+
+More information can be found on my [CV](/files/cv.pdf), last updated on 2024/10/20. For a more recent one, feel free to reach out via [email](mailto:edoardo.debenedetti@inf.ethz.ch).
+
+In my freetime, I like all things outdoors, from hiking, to skiing, sailing, and climbing.

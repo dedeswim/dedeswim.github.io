@@ -29,7 +29,7 @@
 			"version": "latest"
 		},
 		"ghcr.io/devcontainers/features/go:1": {
-			"version": "1.18.3"
+			"version": "1.19"
 		},
 		"ghcr.io/devcontainers/features/hugo:1": {
 			"version": "0.102.0",
