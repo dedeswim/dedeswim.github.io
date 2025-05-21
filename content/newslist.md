@@ -1,4 +1,10 @@
-**[10/2024 - Internship]** On October 1st I started as Student Researcher in the ML Red Team at Google. I will be working with Tianqi Fan and [Ilia Shumailov](https://www.cl.cam.ac.uk/~is410/) (Google DeepMind) on AI agents security.
+**[07/2025 - Meta Internship]** In July, I will start an internship in the GenAI Red Team at Meta.
+
+**[04/2025 - SafeBench Prize]** [AgentDojo](https://agentdojo.spylab.ai) got a [SafeBench](https://www.mlsafety.org/safebench) First prize, worth USD 50'000.
+
+**[04/2025 - CaMeL is out!]** The paper resulting from my intership at Google is finally [out](https://arxiv.org/abs/2503.18813). We propose a new method, to solve prompt injections *by design*.
+
+**[10/2024 - Internship]** On October 1st I started as Student Researcher in the AI Red Team at Google. I will be working with Tianqi Fan and [Ilia Shumailov](https://www.cl.cam.ac.uk/~is410/) (Google DeepMind) on AI agents security.
 
 **[09/2024 - Spotlight]** The [report](https://arxiv.org/abs/2406.07954) of our SaTML LLMs CTF has been accepted as **spotlight** at the NeurIPS D&B Track 2024! Also [AgentDojo](https://agentdojo.spylab.ai) and [JailbreakBench](https://jailbreakbench.github.io) were accepted.
 

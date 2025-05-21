@@ -18,7 +18,7 @@ role: Computer Science PhD Student
 
 # Organizations/Affiliations
 organizations:
-- name: ETH Zürich
+- name: ETH Zurich
   url: "https://inf.ethz.ch/"
 - name: SPY Lab
   url: "https://spylab.ai/"
@@ -26,15 +26,14 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include Machine Learning and Security.
 
-interests:
-- Security of Large Language Model Agents
-- Real-world Machine Learning evasion attacks
-- Privacy in Machine Learning
+# interests:
+# - Security of AI Agents and prompt injections
+# - Privacy in Machine Learning
 
 education:
   courses:
   - course: Ph.D. in Computer Science
-    institution: ETH Zürich - Swiss Federal Institute of Technology, Zürich, Switzerland 🇨🇭
+    institution: ETH Zurich - Swiss Federal Institute of Technology, Zürich, Switzerland 🇨🇭
     year: 2022 - Ongoing
   - course: M.Sc. in Computer Science
     institution: EPFL - Swiss Federal Institute of Technology, Lausanne, Switzerland 🇨🇭
@@ -65,7 +64,7 @@ social:
   link: https://www.semanticscholar.org/author/2175939276
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:edebenedetti@inf.ethz.ch'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:edoardo.debenedetti@inf.ethz.ch'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/edoardo_debe
@@ -86,14 +85,12 @@ highlight_name: true
 # - 
 ---
 
-I am a **Computer Science Ph.D. Student** at ETH Zürich in the [Secure and Private AI (SPY) Lab](https://spylab.ai), advised by [Florian Tramèr](https://floriantramer.com). I am also a Student Researcher in the ML Red Team at Google, working with Tianqi Fan and [Ilia Shumailov](https://www.cl.cam.ac.uk/~is410/). I am interested in the security and privacy of machine learning *systems*. Most recently, I have been [looking into](https://agentdojo.spylab.ai) the security of LLM Agents.
+I am a **Computer Science Ph.D. Student** at ETH Zürich in the [Secure and Private AI (SPY) Lab](https://spylab.ai), advised by [Florian Tramèr](https://floriantramer.com). I am interested in the security and privacy of machine learning *systems*. Most recently, I have been looking into the security of LLM Agents.
 
-My research is supported by a [CYD Doctoral Fellowship](https://www.epfl.ch/research/funding/epfl-programmes/cyd/cyd-phd/) awarded by the [armasuisse Cyber-Defence Campus](https://www.cydcampus.ch/).
+Prior to my PhD, I earned a Computer Science M.Sc. at [EPFL](https://epfl.ch/en) and a Computer Engineering B.Sc. at the [Polytechnic University of Turin](https://www.polito.it/).
 
-Prior to my PhD, I earned a Computer Science M.Sc. at [**EPFL**](https://epfl.ch/en) and a Computer Engineering B.Sc. at the [**Polytechnic University of Turin**](https://www.polito.it/).
+Outside of my studies, I was Student Researcher in the AI Red Team at Google, I interned as a SWE intern at Bloomberg LP, and as a Research Intern at the armasuisse CYD Campus.
 
-Outside of my studies, I interned as a SWE intern at **[Bloomberg LP](https://www.bloomberg.com/company/values/tech-at-bloomberg/)** and as a Research Intern at the armasuisse CYD Campus, supervised by [Prof. Humbert](https://www.mhumbert.com/).
+More information can be found on my [CV](/files/cv.pdf), last updated on 2025/05/21. For a more recent one, feel free to reach out via [email](mailto:edoardo.debenedetti@inf.ethz.ch).
 
-More information can be found on my [CV](/files/cv.pdf), last updated on 2024/10/20. For a more recent one, feel free to reach out via [email](mailto:edoardo.debenedetti@inf.ethz.ch).
-
-In my freetime, I like all things outdoors, from hiking, to skiing, sailing, and climbing.
+In my free time, I like all things outdoors, from hiking, to (backcountry) skiing, and sailing.
