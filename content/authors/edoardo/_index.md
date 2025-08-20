@@ -93,6 +93,6 @@ Prior to my PhD, I earned a Computer Science M.Sc. at [EPFL](https://epfl.ch/en)
 
 Outside of my studies, I was Student Researcher in the AI Red Team at Google, I interned as a SWE intern at Bloomberg LP, and as a Research Intern at the armasuisse CYD Campus.
 
-More information can be found on my [CV](/files/cv.pdf), last updated on 2025/05/21. For a more recent one, feel free to reach out via [email](mailto:edoardo.debenedetti@inf.ethz.ch).
+More information can be found on my [CV](/files/cv.pdf), last updated on 2025/19/08. For a more recent one, feel free to reach out via [email](mailto:edoardo.debenedetti@inf.ethz.ch).
 
 In my free time, I like all things outdoors, from hiking, to (backcountry) skiing, and sailing.
