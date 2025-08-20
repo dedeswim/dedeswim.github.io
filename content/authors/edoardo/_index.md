@@ -14,10 +14,12 @@ authors:
 superuser: true
 
 # Role/position
-role: Computer Science PhD Student
+role: Research Scientist Intern | Computer Science PhD Student
 
 # Organizations/Affiliations
 organizations:
+- name: Meta
+  url: "https://meta.com/"
 - name: ETH Zurich
   url: "https://inf.ethz.ch/"
 - name: SPY Lab
@@ -85,7 +87,7 @@ highlight_name: true
 # - 
 ---
 
-I am a **Computer Science Ph.D. Student** at ETH Zürich in the [Secure and Private AI (SPY) Lab](https://spylab.ai), advised by [Florian Tramèr](https://floriantramer.com). I am interested in the security and privacy of machine learning *systems*. Most recently, I have been looking into the security of LLM Agents.
+I am a **Computer Science Ph.D. Student** at ETH Zürich in the [Secure and Private AI (SPY) Lab](https://spylab.ai), advised by [Florian Tramèr](https://floriantramer.com). I am interested in the security and privacy of machine learning *systems*. Most recently, I have been looking into the security of LLM Agents. Currently, I am also a Research Scientist Intern at Meta, in the GenAI Red Team, working on AI agents security.
 
 Prior to my PhD, I earned a Computer Science M.Sc. at [EPFL](https://epfl.ch/en) and a Computer Engineering B.Sc. at the [Polytechnic University of Turin](https://www.polito.it/).
 
