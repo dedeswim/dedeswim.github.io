@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edoardo Debenedetti</title>
+    <meta name="description" content="Edoardo Debenedetti — AI Security Researcher">
+    <base target="_blank">
+    <style>
+        :root {
+            --text: #222;
+            --text-secondary: #555;
+            --link: #1a0dab;
+            --bg: #fff;
+            --max-width: 700px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            color: var(--text);
+            background: var(--bg);
+            line-height: 1.6;
+            padding: 3rem 1.5rem;
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+
+        a { color: var(--link); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        /* Header */
+        .header {
+            display: flex;
+            gap: 1.5rem;
+            align-items: flex-start;
+            margin-bottom: 2.5rem;
+        }
+
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+        .header-text h1 {
+            font-size: 1.6rem;
+            font-weight: 600;
+            margin-bottom: 0.15rem;
+        }
+
+        .header-text .role {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.3rem 1rem;
+            font-size: 0.9rem;
+        }
+
+        /* Bio */
+        .bio {
+            margin-bottom: 2.5rem;
+            font-size: 0.95rem;
+        }
+
+        .bio p { margin-bottom: 0.5rem; }
+
+        /* Sections */
+        h2 {
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            padding-bottom: 0.3rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .section { margin-bottom: 2rem; }
+
+        h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+            margin-top: 1.2rem;
+            margin-bottom: 0.6rem;
+        }
+
+        /* Publications */
+        .pub {
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        .pub-title {
+            font-weight: 600;
+        }
+
+        .pub-title a {
+            color: var(--text);
+        }
+
+        .pub-title a:hover {
+            color: var(--link);
+        }
+
+        .pub-authors {
+            color: var(--text-secondary);
+        }
+
+        .pub-authors .me {
+            color: var(--text);
+            font-weight: 600;
+        }
+
+        .pub-venue {
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        .pub-award {
+            color: #b45309;
+            font-weight: 600;
+            font-size: 0.85rem;
+        }
+
+        .pub-note {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+
+        .pub-addendum {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+
+        /* Press */
+        .press-list {
+            list-style: none;
+            font-size: 0.9rem;
+        }
+
+        .press-list li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 500px) {
+            .header {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            .links { justify-content: center; }
+            body { padding: 2rem 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="avatar.jpeg" alt="Edoardo Debenedetti" class="avatar">
+        <div class="header-text">
+            <h1>Edoardo Debenedetti</h1>
+            <div class="role">AI Security Researcher</div>
+            <div class="links">
+                <a href="mailto:edoardo.debenedetti@inf.ethz.ch">Email</a>
+                <a href="https://scholar.google.com/citations?user=6Urve9wAAAAJ">Scholar</a>
+                <a href="https://github.com/dedeswim">GitHub</a>
+                <a href="https://twitter.com/edoardo_debe">X</a>
+                <a href="https://linkedin.com/in/edoardo-debenedetti">LinkedIn</a>
+                <a href="files/cv.pdf">CV</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="bio">
+        <p>
+            I am a Research Scientist working on AI security.
+            I am also wrapping up my Computer Science PhD at
+            <a href="https://ethz.ch">ETH Zurich</a> in the
+            <a href="https://spylab.ai">SPY Lab</a>, advised by
+            <a href="https://floriantramer.com">Florian Tramer</a>.
+        </p>
+        <p>
+            My research focuses on prompt injection attacks and the security of AI agents.
+            My PhD is on the security and privacy of machine learning systems.
+        </p>
+    </div>
+
+    {% macro render_pub(pub) %}
+    <div class="pub">
+        <span class="pub-title">{% if pub.url %}<a href="{{ pub.url }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</span><br>
+        <span class="pub-authors">
+            {%- for author in pub.authors -%}
+                {%- if loop.index == pub.highlight_idx -%}
+                    <span class="me">{{ author }}</span>
+                {%- else -%}
+                    {{ author }}
+                {%- endif -%}
+                {%- if not loop.last %}, {% endif -%}
+            {%- endfor -%}
+        </span><br>
+        {% if pub.venue %}<span class="pub-venue">{{ pub.venue }}</span>{% endif %}
+        {% if pub.note %}<span class="{{ 'pub-award' if pub.is_award else 'pub-note' }}"> · {{ pub.note }}</span>{% endif %}
+        {% if pub.addendum %}<br><span class="pub-addendum">{{ pub.addendum }}</span>{% endif %}
+    </div>
+    {% endmacro %}
+
+    <div class="section">
+        <h2>Publications</h2>
+        {% for year in years %}
+        <h3>{{ year }}</h3>
+        {% for pub in pubs_by_year[year] %}
+            {{ render_pub(pub) }}
+        {% endfor %}
+        {% endfor %}
+    </div>
+
+    <div class="section">
+        <h2>Press</h2>
+        <ul class="press-list">
+            <li><strong>The Economist</strong> — <a href="https://www.economist.com/science-and-technology/2025/09/22/why-ai-systems-might-never-be-secure">"Why AI systems might never be secure"</a>, September 2025</li>
+            <li><strong>Ars Technica</strong> — <a href="https://arstechnica.com/information-technology/2025/04/researchers-claim-breakthrough-in-fight-against-ais-frustrating-security-hole/">"Researchers claim breakthrough in fight against AI's frustrating security hole"</a>, April 2025</li>
+            <li><strong>MIT Technology Review</strong> — <a href="https://www.technologyreview.com/2025/04/04/1114228/cyberattacks-by-ai-agents-are-coming/">"Cyberattacks by AI agents are coming"</a>, April 2025</li>
+        </ul>
+    </div>
+</body>
+</html>

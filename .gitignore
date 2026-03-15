@@ -51,3 +51,4 @@ Temporary Items
 
 # End of https://www.toptal.com/developers/gitignore/api/vscode,hugo,macos
 .hugo_build.lock
+_site/
