@@ -94,7 +94,7 @@
 
         /* Publications */
         .pub {
-            margin-bottom: 1rem;
+            margin-bottom: 1.2rem;
             font-size: 0.9rem;
             line-height: 1.5;
         }
@@ -141,6 +141,72 @@
             font-size: 0.85rem;
         }
 
+        .pub-buttons {
+            margin-top: 0.25rem;
+            font-size: 0.85rem;
+        }
+
+        .pub-buttons a {
+            color: darkred;
+        }
+
+        .pub-buttons .sep {
+            color: var(--text-secondary);
+            margin: 0 0.15rem;
+        }
+
+        .pub-hidden {
+            display: none;
+        }
+
+        .pub-hidden.pub-visible {
+            display: block;
+        }
+
+        .pub-hidden hr {
+            margin: 0.4rem 0;
+            border: none;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .pub-hidden pre {
+            background: #f5f5f5;
+            padding: 0.6rem;
+            border-radius: 0.2rem;
+            font-size: 0.82rem;
+            line-height: 1.3;
+            overflow-x: auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+        }
+
+        .pub-tldr {
+            font-size: 0.85rem;
+            line-height: 1.4;
+        }
+
+        .bib-wrapper {
+            position: relative;
+        }
+
+        .copy-btn {
+            position: absolute;
+            top: 0.4rem;
+            right: 0.4rem;
+            font-size: 0.75rem;
+            padding: 0.2rem 0.5rem;
+            background: #fff;
+            border: 1px solid #ccc;
+            border-radius: 0.2rem;
+            cursor: pointer;
+            color: var(--text-secondary);
+        }
+
+        .copy-btn:hover {
+            background: #e8e8e8;
+        }
+
         /* Press */
         .press-list {
             list-style: none;
@@ -162,6 +228,23 @@
             body { padding: 2rem 1rem; }
         }
     </style>
+    <script>
+        function toggleDiv(id) {
+            var el = document.getElementById(id);
+            if (el) {
+                el.classList.toggle('pub-visible');
+            }
+        }
+        function copyBib(id) {
+            var pre = document.querySelector('#' + id + ' pre');
+            if (pre) {
+                navigator.clipboard.writeText(pre.textContent).then(function() {
+                    var btn = document.querySelector('#' + id + ' .copy-btn');
+                    if (btn) { btn.textContent = 'Copied!'; setTimeout(function() { btn.textContent = 'Copy'; }, 1500); }
+                });
+            }
+        }
+    </script>
 </head>
 <body>
     <div class="header">
@@ -208,6 +291,21 @@
         <span class="pub-venue">4th IEEE Conference on Secure and Trustworthy Machine Learning</span>
         
         
+        <div class="pub-buttons"><a href="https://arxiv.org/abs/2503.18813">Paper</a><span class="sep">|</span><a href="https://x.com/edoardo_debe/status/1904571114795479473">Twitter</a><span class="sep">|</span><a href="https://github.com/google-research/camel-prompt-injection">Code</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('debenedetti2026defeating-bib')">BibTeX</a>
+            <div id="debenedetti2026defeating-bib" class="pub-hidden">
+                <hr>
+                <div class="bib-wrapper">
+                    <button class="copy-btn" onclick="copyBib('debenedetti2026defeating-bib')">Copy</button>
+                    <pre>@inproceedings{debenedetti2026defeating,
+  author = {Debenedetti, Edoardo and Shumailov, Ilia and Fan, Tianqi and Hayes, Jamie and Carlini, Nicholas and Fabian, Daniel and Kern, Christoph and Shi, Chongyang and Terzis, Andreas and Tram\`er, Florian},
+  booktitle = {4th IEEE Conference on Secure and Trustworthy Machine Learning},
+  title = {Defeating Prompt Injections by Design},
+  url = {https://arxiv.org/abs/2503.18813},
+  year = {2026}
+}</pre>
+                </div>
+            </div>
+        </div>
     </div>
     
         
@@ -221,6 +319,21 @@
         <span class="pub-venue">Thirteenth International Conference on Learning Representations</span>
         
         
+        <div class="pub-buttons"><a href="https://arxiv.org/abs/2406.18382">Paper</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('nestaas2025adversarial-bib')">BibTeX</a>
+            <div id="nestaas2025adversarial-bib" class="pub-hidden">
+                <hr>
+                <div class="bib-wrapper">
+                    <button class="copy-btn" onclick="copyBib('nestaas2025adversarial-bib')">Copy</button>
+                    <pre>@inproceedings{nestaas2025adversarial,
+  author = {Nestaas, Fredrik and Debenedetti, Edoardo and Tram\`er, Florian},
+  booktitle = {Thirteenth International Conference on Learning Representations},
+  title = {Adversarial Search Engine Optimization for Large Language Models},
+  url = {https://arxiv.org/abs/2406.18382},
+  year = {2025}
+}</pre>
+                </div>
+            </div>
+        </div>
     </div>
     
         
@@ -231,6 +344,21 @@
         
         <span class="pub-note"> · arXiv ePrint 2506.08837 (αβ order)</span>
         
+        <div class="pub-buttons"><a href="https://arxiv.org/abs/2506.08837">Paper</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('beurerkellner2025design-bib')">BibTeX</a>
+            <div id="beurerkellner2025design-bib" class="pub-hidden">
+                <hr>
+                <div class="bib-wrapper">
+                    <button class="copy-btn" onclick="copyBib('beurerkellner2025design-bib')">Copy</button>
+                    <pre>@misc{beurerkellner2025design,
+  author = {Beurer-Kellner, Luca and Buesser, Beat and Cre\c{t}u, Ana-Maria and Debenedetti, Edoardo and Dobos, Daniel and Fabian, Daniel and Fischer, Marc and Froelicher, David and Grosse, Kathrin and Naeff, Daniel and Ozoani, Ezi and Paverd, Andrew and Tram\`er, Florian and Volhejn, V\&#39;{a}clav},
+  note = {arXiv ePrint 2506.08837 ($\alpha\beta$ order)},
+  title = {Design Patterns for Securing LLM Agents against Prompt Injections},
+  url = {https://arxiv.org/abs/2506.08837},
+  year = {2025}
+}</pre>
+                </div>
+            </div>
+        </div>
     </div>
     
         
@@ -241,6 +369,21 @@
         
         <span class="pub-note"> · arXiv ePrint 2505.11449</span>
         
+        <div class="pub-buttons"><a href="https://arxiv.org/abs/2505.11449">Paper</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('carlini2025llms-bib')">BibTeX</a>
+            <div id="carlini2025llms-bib" class="pub-hidden">
+                <hr>
+                <div class="bib-wrapper">
+                    <button class="copy-btn" onclick="copyBib('carlini2025llms-bib')">Copy</button>
+                    <pre>@misc{carlini2025llms,
+  author = {Carlini, Nicholas and Nasr, Milad and Debenedetti, Edoardo and Wang, Barry and Choquette-Choo, Christopher and Ippolito, Daphne and Tram\`er, Florian and Jagielski, Matthew},
+  note = {arXiv ePrint 2505.11449},
+  title = {LLMs unlock new paths to monetizing exploits},
+  url = {https://arxiv.org/abs/2505.11449},
+  year = {2025}
+}</pre>
+                </div>
+            </div>
+        </div>
     </div>
     
         
@@ -254,6 +397,22 @@
         <span class="pub-venue">Thirty-eighth Conference on Neural Information Processing Systems Datasets and Benchmarks Track</span>
         <span class="pub-award"> · (SafeBench First Prize)</span>
         
+        <div class="pub-buttons"><a href="https://arxiv.org/abs/2406.13352">Paper</a><span class="sep">|</span><a href="https://github.com/ethz-spylab/agentdojo">Code</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('debenedetti2024agentdojo-bib')">BibTeX</a>
+            <div id="debenedetti2024agentdojo-bib" class="pub-hidden">
+                <hr>
+                <div class="bib-wrapper">
+                    <button class="copy-btn" onclick="copyBib('debenedetti2024agentdojo-bib')">Copy</button>
+                    <pre>@inproceedings{debenedetti2024agentdojo,
+  author = {Debenedetti, Edoardo and Zhang, Jie and Balunovi\&#39;c, Mislav and Beurer-Kellner, Luca and Fischer, Marc and Tram\`er, Florian},
+  booktitle = {Thirty-eighth Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+  note = {(\textbf{SafeBench First Prize})},
+  title = {AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents},
+  url = {https://arxiv.org/abs/2406.13352},
+  year = {2024}
+}</pre>
+                </div>
+            </div>
+        </div>
     </div>
     
         
@@ -264,6 +423,22 @@
         <span class="pub-venue">2nd IEEE Conference on Secure and Trustworthy Machine Learning</span>
         <span class="pub-award"> · Distinguished Paper Award Runner-up</span>
         
+        <div class="pub-buttons"><a href="https://arxiv.org/abs/2306.02895">Paper</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('debenedetti2024evading-bib')">BibTeX</a>
+            <div id="debenedetti2024evading-bib" class="pub-hidden">
+                <hr>
+                <div class="bib-wrapper">
+                    <button class="copy-btn" onclick="copyBib('debenedetti2024evading-bib')">Copy</button>
+                    <pre>@inproceedings{debenedetti2024evading,
+  author = {Debenedetti, Edoardo and Carlini, Nicholas and Tram\`er, Florian},
+  booktitle = {2nd IEEE Conference on Secure and Trustworthy Machine Learning},
+  note = {\textbf{Distinguished Paper Award Runner-up}},
+  title = {Evading Black-box Classifiers Without Breaking Eggs},
+  url = {https://arxiv.org/abs/2306.02895},
+  year = {2024}
+}</pre>
+                </div>
+            </div>
+        </div>
     </div>
     
         
@@ -274,6 +449,22 @@
         <span class="pub-venue">Thirty-eighth Conference on Neural Information Processing Systems Datasets and Benchmarks Track</span>
         
         <br><span class="pub-addendum">(*joint first authors)</span>
+        <div class="pub-buttons"><a href="https://arxiv.org/abs/2404.01318">Paper</a><span class="sep">|</span><a href="https://github.com/JailbreakBench/jailbreakbench">Code</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('chao2024jailbreakbench-bib')">BibTeX</a>
+            <div id="chao2024jailbreakbench-bib" class="pub-hidden">
+                <hr>
+                <div class="bib-wrapper">
+                    <button class="copy-btn" onclick="copyBib('chao2024jailbreakbench-bib')">Copy</button>
+                    <pre>@inproceedings{chao2024jailbreakbench,
+  addendum = {(*joint first authors)},
+  author = {Chao*, Patrick and Debenedetti*, Edoardo and Robey*, Alexander and Andriushchenko*, Maksym and Croce, Francesco and Sehwag, Vikash and Dobriban, Edgar and Flammarion, Nicolas and Pappas, George and Tram\`er, Florian and Hassani, Hamed and Wong, Eric},
+  booktitle = {Thirty-eighth Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+  title = {JailbreakBench: An Open Robustness Benchmark for Jailbreaking Language Models},
+  url = {https://arxiv.org/abs/2404.01318},
+  year = {2024}
+}</pre>
+                </div>
+            </div>
+        </div>
     </div>
     
         
@@ -284,6 +475,21 @@
         <span class="pub-venue">33rd USENIX Security Symposium</span>
         
         
+        <div class="pub-buttons"><a href="https://arxiv.org/abs/2309.05610">Paper</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('debenedetti2024privacy-bib')">BibTeX</a>
+            <div id="debenedetti2024privacy-bib" class="pub-hidden">
+                <hr>
+                <div class="bib-wrapper">
+                    <button class="copy-btn" onclick="copyBib('debenedetti2024privacy-bib')">Copy</button>
+                    <pre>@inproceedings{debenedetti2024privacy,
+  author = {Debenedetti, Edoardo and Severi, Giorgio and Carlini, Nicholas and Choquette-Choo, Christopher A. and Jagielski, Matthew and Nasr, Milad and Wallace, Eric and Tram\`er, Florian},
+  booktitle = {33rd USENIX Security Symposium},
+  title = {Privacy Side Channels in Machine Learning Systems},
+  url = {https://arxiv.org/abs/2309.05610},
+  year = {2024}
+}</pre>
+                </div>
+            </div>
+        </div>
     </div>
     
         
@@ -297,6 +503,22 @@
         <span class="pub-venue">Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track</span>
         
         <br><span class="pub-addendum">(*joint first authors)</span>
+        <div class="pub-buttons"><a href="https://arxiv.org/abs/2010.09670">Paper</a><span class="sep">|</span><a href="https://github.com/RobustBench/robustbench">Code</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('croce2021robustbench-bib')">BibTeX</a>
+            <div id="croce2021robustbench-bib" class="pub-hidden">
+                <hr>
+                <div class="bib-wrapper">
+                    <button class="copy-btn" onclick="copyBib('croce2021robustbench-bib')">Copy</button>
+                    <pre>@inproceedings{croce2021robustbench,
+  addendum = {(*joint first authors)},
+  author = {Croce*, Francesco and Andriushchenko*, Maksym and Sehwag*, Vikash and Debenedetti*, Edoardo and Flammarion, Nicolas and Chiang, Mung and Mittal, Prateek and Hein, Matthias},
+  booktitle = {Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+  title = {RobustBench: a standardized adversarial robustness benchmark},
+  url = {https://arxiv.org/abs/2010.09670},
+  year = {2021}
+}</pre>
+                </div>
+            </div>
+        </div>
     </div>
     
         
