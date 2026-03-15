@@ -94,7 +94,7 @@
 
         /* Publications */
         .pub {
-            margin-bottom: 1rem;
+            margin-bottom: 1.2rem;
             font-size: 0.9rem;
             line-height: 1.5;
         }
@@ -141,6 +141,72 @@
             font-size: 0.85rem;
         }
 
+        .pub-buttons {
+            margin-top: 0.25rem;
+            font-size: 0.85rem;
+        }
+
+        .pub-buttons a {
+            color: darkred;
+        }
+
+        .pub-buttons .sep {
+            color: var(--text-secondary);
+            margin: 0 0.15rem;
+        }
+
+        .pub-hidden {
+            display: none;
+        }
+
+        .pub-hidden.pub-visible {
+            display: block;
+        }
+
+        .pub-hidden hr {
+            margin: 0.4rem 0;
+            border: none;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .pub-hidden pre {
+            background: #f5f5f5;
+            padding: 0.6rem;
+            border-radius: 0.2rem;
+            font-size: 0.82rem;
+            line-height: 1.3;
+            overflow-x: auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+        }
+
+        .pub-tldr {
+            font-size: 0.85rem;
+            line-height: 1.4;
+        }
+
+        .bib-wrapper {
+            position: relative;
+        }
+
+        .copy-btn {
+            position: absolute;
+            top: 0.4rem;
+            right: 0.4rem;
+            font-size: 0.75rem;
+            padding: 0.2rem 0.5rem;
+            background: #fff;
+            border: 1px solid #ccc;
+            border-radius: 0.2rem;
+            cursor: pointer;
+            color: var(--text-secondary);
+        }
+
+        .copy-btn:hover {
+            background: #e8e8e8;
+        }
+
         /* Press */
         .press-list {
             list-style: none;
@@ -162,6 +228,23 @@
             body { padding: 2rem 1rem; }
         }
     </style>
+    <script>
+        function toggleDiv(id) {
+            var el = document.getElementById(id);
+            if (el) {
+                el.classList.toggle('pub-visible');
+            }
+        }
+        function copyBib(id) {
+            var pre = document.querySelector('#' + id + ' pre');
+            if (pre) {
+                navigator.clipboard.writeText(pre.textContent).then(function() {
+                    var btn = document.querySelector('#' + id + ' .copy-btn');
+                    if (btn) { btn.textContent = 'Copied!'; setTimeout(function() { btn.textContent = 'Copy'; }, 1500); }
+                });
+            }
+        }
+    </script>
 </head>
 <body>
     <div class="header">
@@ -210,6 +293,61 @@
         {% if pub.venue %}<span class="pub-venue">{{ pub.venue }}</span>{% endif %}
         {% if pub.note %}<span class="{{ 'pub-award' if pub.is_award else 'pub-note' }}"> · {{ pub.note }}</span>{% endif %}
         {% if pub.addendum %}<br><span class="pub-addendum">{{ pub.addendum }}</span>{% endif %}
+        <div class="pub-buttons">
+            {%- set ns = namespace(need_sep=false) -%}
+            {%- if pub.url -%}
+                <a href="{{ pub.url }}">Paper</a>
+                {%- set ns.need_sep = true -%}
+            {%- endif -%}
+            {%- if pub.tldr -%}
+                {%- if ns.need_sep %}<span class="sep">|</span>{% endif -%}
+                <a href="javascript:void(0)" target="_self" onclick="toggleDiv('{{ pub.key }}-tldr')">TLDR</a>
+                {%- set ns.need_sep = true -%}
+            {%- endif -%}
+            {%- if pub.twitter -%}
+                {%- if ns.need_sep %}<span class="sep">|</span>{% endif -%}
+                <a href="{{ pub.twitter }}">Twitter</a>
+                {%- set ns.need_sep = true -%}
+            {%- endif -%}
+            {%- if pub.code -%}
+                {%- if ns.need_sep %}<span class="sep">|</span>{% endif -%}
+                <a href="{{ pub.code }}">Code</a>
+                {%- set ns.need_sep = true -%}
+            {%- endif -%}
+            {%- if pub.blog -%}
+                {%- if ns.need_sep %}<span class="sep">|</span>{% endif -%}
+                <a href="{{ pub.blog }}">Blog</a>
+                {%- set ns.need_sep = true -%}
+            {%- endif -%}
+            {%- if pub.slides -%}
+                {%- if ns.need_sep %}<span class="sep">|</span>{% endif -%}
+                <a href="{{ pub.slides }}">Slides</a>
+                {%- set ns.need_sep = true -%}
+            {%- endif -%}
+            {%- if pub.video -%}
+                {%- if ns.need_sep %}<span class="sep">|</span>{% endif -%}
+                <a href="{{ pub.video }}">Video</a>
+                {%- set ns.need_sep = true -%}
+            {%- endif -%}
+            {%- if pub.bibtex -%}
+                {%- if ns.need_sep %}<span class="sep">|</span>{% endif -%}
+                <a href="javascript:void(0)" target="_self" onclick="toggleDiv('{{ pub.key }}-bib')">BibTeX</a>
+            {%- endif -%}
+            {%- if pub.tldr %}
+            <div id="{{ pub.key }}-tldr" class="pub-hidden">
+                <hr><span class="pub-tldr"><strong>TLDR:</strong> {{ pub.tldr }}</span>
+            </div>
+            {%- endif %}
+            {%- if pub.bibtex %}
+            <div id="{{ pub.key }}-bib" class="pub-hidden">
+                <hr>
+                <div class="bib-wrapper">
+                    <button class="copy-btn" onclick="copyBib('{{ pub.key }}-bib')">Copy</button>
+                    <pre>{{ pub.bibtex }}</pre>
+                </div>
+            </div>
+            {%- endif %}
+        </div>
     </div>
     {% endmacro %}
 

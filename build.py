@@ -12,6 +12,7 @@ import shutil
 from pathlib import Path
 
 import bibtexparser
+from bibtexparser.bwriter import BibTexWriter
 from jinja2 import Environment, FileSystemLoader
 
 ROOT = Path(__file__).parent
@@ -88,6 +89,11 @@ def parse_bib(bib_path: Path) -> list[dict]:
     with open(bib_path) as f:
         library = bibtexparser.load(f, parser=parser)
 
+    # Generate raw BibTeX for citation buttons (only standard fields)
+    writer = BibTexWriter()
+    writer.indent = "  "
+    extra_fields = {"author+an", "keywords", "twitter", "code", "tldr", "blog", "slides", "video", "selected"}
+
     entries = []
     for entry in library.entries:
         authors = parse_authors(entry.get("author", ""))
@@ -108,6 +114,20 @@ def parse_bib(bib_path: Path) -> list[dict]:
         is_award = "\\textbf" in raw_note
         addendum = clean_latex(entry.get("addendum", ""))
 
+        # Extra link fields for buttons
+        twitter = entry.get("twitter", "")
+        code = entry.get("code", "")
+        tldr = entry.get("tldr", "")
+        blog = entry.get("blog", "")
+        slides = entry.get("slides", "")
+        video = entry.get("video", "")
+
+        # Generate clean BibTeX for citation
+        clean_entry = {k: v for k, v in entry.items() if k not in extra_fields}
+        bib_db = bibtexparser.bibdatabase.BibDatabase()
+        bib_db.entries = [clean_entry]
+        bibtex = writer.write(bib_db).strip()
+
         entries.append(
             {
                 "key": entry.get("ID", ""),
@@ -122,6 +142,13 @@ def parse_bib(bib_path: Path) -> list[dict]:
                 "addendum": addendum,
                 "category": category,
                 "selected": selected,
+                "twitter": twitter,
+                "code": code,
+                "tldr": tldr,
+                "blog": blog,
+                "slides": slides,
+                "video": video,
+                "bibtex": bibtex,
             }
         )
     # Sort by year descending, then by title
