@@ -164,7 +164,7 @@ def build():
         shutil.copy2(cv_src, BUILD_DIR / "files" / "cv.pdf")
 
     # Copy avatar
-    avatar_src = ROOT / "content" / "authors" / "edoardo" / "avatar.jpeg"
+    avatar_src = ROOT / "avatar.jpeg"
     if avatar_src.exists():
         shutil.copy2(avatar_src, BUILD_DIR / "avatar.jpeg")
 

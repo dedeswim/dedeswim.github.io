@@ -1,31 +1,11 @@
-
-# Created by https://www.toptal.com/developers/gitignore/api/vscode,hugo,macos
-# Edit at https://www.toptal.com/developers/gitignore?templates=vscode,hugo,macos
-
-### Hugo ###
-# Generated files by hugo
-/public/
-/resources/_gen/
-hugo_stats.json
-
-# Executable may be added to repository
-hugo.exe
-hugo.darwin
-hugo.linux
+_site/
 
 ### macOS ###
-# General
 .DS_Store
 .AppleDouble
 .LSOverride
-
-# Icon must end with two \r
 Icon
-
-# Thumbnails
 ._*
-
-# Files that might appear in the root of a volume
 .DocumentRevisions-V100
 .fseventsd
 .Spotlight-V100
@@ -33,8 +13,6 @@ Icon
 .Trashes
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
-
-# Directories potentially created on remote AFP share
 .AppleDB
 .AppleDesktop
 Network Trash Folder
@@ -48,7 +26,3 @@ Temporary Items
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
-
-# End of https://www.toptal.com/developers/gitignore/api/vscode,hugo,macos
-.hugo_build.lock
-_site/
