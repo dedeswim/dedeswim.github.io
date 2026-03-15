@@ -289,10 +289,12 @@
                 {%- endif -%}
                 {%- if not loop.last %}, {% endif -%}
             {%- endfor -%}
-        </span><br>
-        {% if pub.venue %}<span class="pub-venue">{{ pub.venue }}</span>{% endif %}
-        {% if pub.note %}<span class="{{ 'pub-award' if pub.is_award else 'pub-note' }}"> · {{ pub.note }}</span>{% endif %}
-        {% if pub.addendum %}<br><span class="pub-addendum">{{ pub.addendum }}</span>{% endif %}
+        </span>
+        {%- if pub.addendum %} <span class="pub-addendum">{{ pub.addendum }}</span>{% endif -%}
+        <br>
+        {%- if pub.venue %}<span class="pub-venue">{{ pub.venue }}</span>
+        {%- endif %}
+        {%- if pub.note %}{% if pub.venue %}<br>{% endif %}<span class="{{ 'pub-award' if pub.is_award else 'pub-note' }}">{{ pub.note }}</span>{% endif %}
         <div class="pub-buttons">
             {%- set ns = namespace(need_sep=false) -%}
             {%- if pub.url -%}
