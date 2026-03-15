@@ -17,7 +17,8 @@ from jinja2 import Environment, FileSystemLoader
 ROOT = Path(__file__).parent
 BUILD_DIR = ROOT / "_site"
 TEMPLATE_DIR = ROOT / "templates"
-BIB_FILE = ROOT / ".." / "cv" / "publications.bib"
+CV_DIR = ROOT / "cv" if (ROOT / "cv" / "publications.bib").exists() else ROOT / ".." / "cv"
+BIB_FILE = CV_DIR / "publications.bib"
 STATIC_DIR = ROOT / "static"
 
 
@@ -157,7 +158,7 @@ def build():
                 shutil.copytree(f, BUILD_DIR / f.name, dirs_exist_ok=True)
 
     # Copy CV from cv repo if available
-    cv_src = ROOT / ".." / "cv" / "cv.pdf"
+    cv_src = CV_DIR / "cv.pdf"
     if cv_src.exists():
         (BUILD_DIR / "files").mkdir(exist_ok=True)
         shutil.copy2(cv_src, BUILD_DIR / "files" / "cv.pdf")
