@@ -85,18 +85,25 @@
         .section { margin-bottom: 2rem; }
 
         h3 {
-            font-size: 1rem;
-            font-weight: 600;
+            font-size: 0.9rem;
+            font-weight: 500;
             color: var(--text-secondary);
             margin-top: 1.2rem;
-            margin-bottom: 0.6rem;
+            margin-bottom: 0.5rem;
         }
 
         /* Publications */
         .pub {
             margin-bottom: 1.2rem;
+            padding-bottom: 1.2rem;
+            border-bottom: 1px solid #f0f0f0;
             font-size: 0.9rem;
             line-height: 1.5;
+        }
+
+        .pub:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
         }
 
         .pub-title {
@@ -104,10 +111,6 @@
         }
 
         .pub-title a {
-            color: var(--text);
-        }
-
-        .pub-title a:hover {
             color: var(--link);
         }
 
@@ -151,8 +154,8 @@
         }
 
         .pub-buttons .sep {
-            color: var(--text-secondary);
-            margin: 0 0.15rem;
+            color: #ccc;
+            margin: 0 0.25rem;
         }
 
         .pub-hidden {
@@ -215,6 +218,15 @@
 
         .press-list li {
             margin-bottom: 0.5rem;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 3rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e0e0e0;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
         }
 
         /* Responsive */
@@ -297,12 +309,7 @@
         {%- if pub.note %}{% if pub.venue %}<br>{% endif %}<span class="{{ 'pub-award' if pub.is_award else 'pub-note' }}">{{ pub.note }}</span>{% endif %}
         <div class="pub-buttons">
             {%- set ns = namespace(need_sep=false) -%}
-            {%- if pub.url -%}
-                <a href="{{ pub.url }}">Paper</a>
-                {%- set ns.need_sep = true -%}
-            {%- endif -%}
             {%- if pub.tldr -%}
-                {%- if ns.need_sep %}<span class="sep">|</span>{% endif -%}
                 <a href="javascript:void(0)" target="_self" onclick="toggleDiv('{{ pub.key }}-tldr')">TLDR</a>
                 {%- set ns.need_sep = true -%}
             {%- endif -%}
@@ -367,12 +374,17 @@
     </div>
 
     <div class="section">
-        <h2>Press</h2>
+        <h2>Press and Blog Coverage</h2>
         <ul class="press-list">
             <li><strong>The Economist</strong> — <a href="https://www.economist.com/science-and-technology/2025/09/22/why-ai-systems-might-never-be-secure">"Why AI systems might never be secure"</a>, September 2025</li>
             <li><strong>Ars Technica</strong> — <a href="https://arstechnica.com/information-technology/2025/04/researchers-claim-breakthrough-in-fight-against-ais-frustrating-security-hole/">"Researchers claim breakthrough in fight against AI's frustrating security hole"</a>, April 2025</li>
             <li><strong>MIT Technology Review</strong> — <a href="https://www.technologyreview.com/2025/04/04/1114228/cyberattacks-by-ai-agents-are-coming/">"Cyberattacks by AI agents are coming"</a>, April 2025</li>
+            <li><strong>Simon Willison's Weblog</strong> — <a href="https://simonwillison.net/2025/Apr/11/camel/">"CaMeL offers a promising new approach to stopping prompt injection attacks"</a>, April 2025</li>
         </ul>
     </div>
+
+    <footer>
+        Last updated: {{ build_date }}
+    </footer>
 </body>
 </html>

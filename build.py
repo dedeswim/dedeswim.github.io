@@ -9,6 +9,7 @@
 
 import re
 import shutil
+from datetime import date
 from pathlib import Path
 
 import bibtexparser
@@ -173,6 +174,7 @@ def build():
     html = template.render(
         pubs_by_year=pubs_by_year,
         years=years,
+        build_date=date.today().strftime("%B %Y"),
     )
 
     # Write output
