@@ -94,6 +94,7 @@ def parse_bib(bib_path: Path) -> list[dict]:
         highlight_idx = get_highlight_index(entry)
         # Map keywords to categories
         kw = entry.get("keywords", "conference")
+        selected = "selected" in kw
         if "workshop" in kw:
             category = "workshop"
         elif "manuscript" in kw:
@@ -120,6 +121,7 @@ def parse_bib(bib_path: Path) -> list[dict]:
                 "is_award": is_award,
                 "addendum": addendum,
                 "category": category,
+                "selected": selected,
             }
         )
     # Sort by year descending, then by title
@@ -131,9 +133,10 @@ def build():
     # Parse publications
     entries = parse_bib(BIB_FILE)
 
-    # Group all papers by year
+    # Filter to selected publications and group by year
+    selected = [pub for pub in entries if pub["selected"]]
     pubs_by_year: dict[int, list[dict]] = {}
-    for pub in entries:
+    for pub in selected:
         pubs_by_year.setdefault(pub["year"], []).append(pub)
     years = sorted(pubs_by_year.keys(), reverse=True)
 
