@@ -85,18 +85,25 @@
         .section { margin-bottom: 2rem; }
 
         h3 {
-            font-size: 1rem;
-            font-weight: 600;
+            font-size: 0.9rem;
+            font-weight: 500;
             color: var(--text-secondary);
             margin-top: 1.2rem;
-            margin-bottom: 0.6rem;
+            margin-bottom: 0.5rem;
         }
 
         /* Publications */
         .pub {
             margin-bottom: 1.2rem;
+            padding-bottom: 1.2rem;
+            border-bottom: 1px solid #f0f0f0;
             font-size: 0.9rem;
             line-height: 1.5;
+        }
+
+        .pub:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
         }
 
         .pub-title {
@@ -104,10 +111,6 @@
         }
 
         .pub-title a {
-            color: var(--text);
-        }
-
-        .pub-title a:hover {
             color: var(--link);
         }
 
@@ -151,8 +154,8 @@
         }
 
         .pub-buttons .sep {
-            color: var(--text-secondary);
-            margin: 0 0.15rem;
+            color: #ccc;
+            margin: 0 0.25rem;
         }
 
         .pub-hidden {
@@ -215,6 +218,15 @@
 
         .press-list li {
             margin-bottom: 0.5rem;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 3rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e0e0e0;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
         }
 
         /* Responsive */
@@ -288,7 +300,7 @@
     <div class="pub">
         <span class="pub-title"><a href="https://arxiv.org/abs/2503.18813">Defeating Prompt Injections by Design</a></span><br>
         <span class="pub-authors"><span class="me">Edoardo Debenedetti</span>, Ilia Shumailov, Tianqi Fan, Jamie Hayes, Nicholas Carlini, Daniel Fabian, Christoph Kern, Chongyang Shi, Andreas Terzis, Florian Tramèr</span><br><span class="pub-venue">4th IEEE Conference on Secure and Trustworthy Machine Learning</span>
-        <div class="pub-buttons"><a href="https://arxiv.org/abs/2503.18813">Paper</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('debenedetti2026defeating-tldr')">TLDR</a><span class="sep">|</span><a href="https://x.com/edoardo_debe/status/1904571114795479473">Twitter</a><span class="sep">|</span><a href="https://github.com/google-research/camel-prompt-injection">Code</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('debenedetti2026defeating-bib')">BibTeX</a>
+        <div class="pub-buttons"><a href="javascript:void(0)" target="_self" onclick="toggleDiv('debenedetti2026defeating-tldr')">TLDR</a><span class="sep">|</span><a href="https://x.com/edoardo_debe/status/1904571114795479473">Twitter</a><span class="sep">|</span><a href="https://github.com/google-research/camel-prompt-injection">Code</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('debenedetti2026defeating-bib')">BibTeX</a>
             <div id="debenedetti2026defeating-tldr" class="pub-hidden">
                 <hr><span class="pub-tldr"><strong>TLDR:</strong> CaMeL provides security guarantees against prompt injection by tracking data flows through LLM agent executions.</span>
             </div>
@@ -316,7 +328,7 @@
     <div class="pub">
         <span class="pub-title"><a href="https://arxiv.org/abs/2406.18382">Adversarial Search Engine Optimization for Large Language Models</a></span><br>
         <span class="pub-authors">Fredrik Nestaas, <span class="me">Edoardo Debenedetti</span>, Florian Tramèr</span><br><span class="pub-venue">Thirteenth International Conference on Learning Representations</span>
-        <div class="pub-buttons"><a href="https://arxiv.org/abs/2406.18382">Paper</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('nestaas2025adversarial-tldr')">TLDR</a><span class="sep">|</span><a href="https://x.com/edoardo_debe/status/1806339096610021689">Twitter</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('nestaas2025adversarial-bib')">BibTeX</a>
+        <div class="pub-buttons"><a href="javascript:void(0)" target="_self" onclick="toggleDiv('nestaas2025adversarial-tldr')">TLDR</a><span class="sep">|</span><a href="https://x.com/edoardo_debe/status/1806339096610021689">Twitter</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('nestaas2025adversarial-bib')">BibTeX</a>
             <div id="nestaas2025adversarial-tldr" class="pub-hidden">
                 <hr><span class="pub-tldr"><strong>TLDR:</strong> Attackers can manipulate LLMs through crafted content to promote products and demote competitors in search results.</span>
             </div>
@@ -341,7 +353,7 @@
     <div class="pub">
         <span class="pub-title"><a href="https://arxiv.org/abs/2506.08837">Design Patterns for Securing LLM Agents against Prompt Injections</a></span><br>
         <span class="pub-authors">Luca Beurer-Kellner, Beat Buesser, Ana-Maria Creţu, <span class="me">Edoardo Debenedetti</span>, Daniel Dobos, Daniel Fabian, Marc Fischer, David Froelicher, Kathrin Grosse, Daniel Naeff, Ezi Ozoani, Andrew Paverd, Florian Tramèr, Václav Volhejn</span> <span class="pub-addendum">(αβ order)</span><br><span class="pub-note">arXiv ePrint 2506.08837</span>
-        <div class="pub-buttons"><a href="https://arxiv.org/abs/2506.08837">Paper</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('beurerkellner2025design-tldr')">TLDR</a><span class="sep">|</span><a href="https://x.com/florian_tramer/status/1932868632326889703">Twitter</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('beurerkellner2025design-bib')">BibTeX</a>
+        <div class="pub-buttons"><a href="javascript:void(0)" target="_self" onclick="toggleDiv('beurerkellner2025design-tldr')">TLDR</a><span class="sep">|</span><a href="https://x.com/florian_tramer/status/1932868632326889703">Twitter</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('beurerkellner2025design-bib')">BibTeX</a>
             <div id="beurerkellner2025design-tldr" class="pub-hidden">
                 <hr><span class="pub-tldr"><strong>TLDR:</strong> We propose design patterns for securing LLM agents against prompt injection attacks with provable resistance guarantees.</span>
             </div>
@@ -367,7 +379,7 @@
     <div class="pub">
         <span class="pub-title"><a href="https://arxiv.org/abs/2505.11449">LLMs unlock new paths to monetizing exploits</a></span><br>
         <span class="pub-authors">Nicholas Carlini, Milad Nasr, <span class="me">Edoardo Debenedetti</span>, Barry Wang, Christopher Choquette-Choo, Daphne Ippolito, Florian Tramèr, Matthew Jagielski</span><br><span class="pub-note">arXiv ePrint 2505.11449</span>
-        <div class="pub-buttons"><a href="https://arxiv.org/abs/2505.11449">Paper</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('carlini2025llms-tldr')">TLDR</a><span class="sep">|</span><a href="https://x.com/florian_tramer/status/1924914183310651755">Twitter</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('carlini2025llms-bib')">BibTeX</a>
+        <div class="pub-buttons"><a href="javascript:void(0)" target="_self" onclick="toggleDiv('carlini2025llms-tldr')">TLDR</a><span class="sep">|</span><a href="https://x.com/florian_tramer/status/1924914183310651755">Twitter</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('carlini2025llms-bib')">BibTeX</a>
             <div id="carlini2025llms-tldr" class="pub-hidden">
                 <hr><span class="pub-tldr"><strong>TLDR:</strong> LLMs enable economically viable personalized cyber attacks by automating discovery of user-specific exploits at scale.</span>
             </div>
@@ -395,7 +407,7 @@
     <div class="pub">
         <span class="pub-title"><a href="https://arxiv.org/abs/2406.13352">AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents</a></span><br>
         <span class="pub-authors"><span class="me">Edoardo Debenedetti</span>, Jie Zhang, Mislav Balunović, Luca Beurer-Kellner, Marc Fischer, Florian Tramèr</span><br><span class="pub-venue">Thirty-eighth Conference on Neural Information Processing Systems Datasets and Benchmarks Track</span><br><span class="pub-award">SafeBench First Prize</span>
-        <div class="pub-buttons"><a href="https://arxiv.org/abs/2406.13352">Paper</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('debenedetti2024agentdojo-tldr')">TLDR</a><span class="sep">|</span><a href="https://x.com/edoardo_debe/status/1804153184337719591">Twitter</a><span class="sep">|</span><a href="https://github.com/ethz-spylab/agentdojo">Code</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('debenedetti2024agentdojo-bib')">BibTeX</a>
+        <div class="pub-buttons"><a href="javascript:void(0)" target="_self" onclick="toggleDiv('debenedetti2024agentdojo-tldr')">TLDR</a><span class="sep">|</span><a href="https://x.com/edoardo_debe/status/1804153184337719591">Twitter</a><span class="sep">|</span><a href="https://github.com/ethz-spylab/agentdojo">Code</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('debenedetti2024agentdojo-bib')">BibTeX</a>
             <div id="debenedetti2024agentdojo-tldr" class="pub-hidden">
                 <hr><span class="pub-tldr"><strong>TLDR:</strong> An evaluation framework for assessing AI agents&#39; robustness against prompt injection attacks on untrusted tool outputs.</span>
             </div>
@@ -421,7 +433,7 @@
     <div class="pub">
         <span class="pub-title"><a href="https://arxiv.org/abs/2306.02895">Evading Black-box Classifiers Without Breaking Eggs</a></span><br>
         <span class="pub-authors"><span class="me">Edoardo Debenedetti</span>, Nicholas Carlini, Florian Tramèr</span><br><span class="pub-venue">2nd IEEE Conference on Secure and Trustworthy Machine Learning</span><br><span class="pub-award">Distinguished Paper Award Runner-up</span>
-        <div class="pub-buttons"><a href="https://arxiv.org/abs/2306.02895">Paper</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('debenedetti2024evading-tldr')">TLDR</a><span class="sep">|</span><a href="https://x.com/edoardo_debe/status/1666106008672903170">Twitter</a><span class="sep">|</span><a href="https://github.com/ethz-spylab/realistic-adv-examples">Code</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('debenedetti2024evading-bib')">BibTeX</a>
+        <div class="pub-buttons"><a href="javascript:void(0)" target="_self" onclick="toggleDiv('debenedetti2024evading-tldr')">TLDR</a><span class="sep">|</span><a href="https://x.com/edoardo_debe/status/1666106008672903170">Twitter</a><span class="sep">|</span><a href="https://github.com/ethz-spylab/realistic-adv-examples">Code</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('debenedetti2024evading-bib')">BibTeX</a>
             <div id="debenedetti2024evading-tldr" class="pub-hidden">
                 <hr><span class="pub-tldr"><strong>TLDR:</strong> We show how to evade black-box classifiers while minimizing the number of detection-triggering queries.</span>
             </div>
@@ -447,7 +459,7 @@
     <div class="pub">
         <span class="pub-title"><a href="https://arxiv.org/abs/2404.01318">JailbreakBench: An Open Robustness Benchmark for Jailbreaking Language Models</a></span><br>
         <span class="pub-authors">Patrick Chao*, <span class="me">Edoardo Debenedetti*</span>, Alexander Robey*, Maksym Andriushchenko*, Francesco Croce, Vikash Sehwag, Edgar Dobriban, Nicolas Flammarion, George Pappas, Florian Tramèr, Hamed Hassani, Eric Wong</span> <span class="pub-addendum">(*joint first authors)</span><br><span class="pub-venue">Thirty-eighth Conference on Neural Information Processing Systems Datasets and Benchmarks Track</span>
-        <div class="pub-buttons"><a href="https://arxiv.org/abs/2404.01318">Paper</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('chao2024jailbreakbench-tldr')">TLDR</a><span class="sep">|</span><a href="https://github.com/JailbreakBench/jailbreakbench">Code</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('chao2024jailbreakbench-bib')">BibTeX</a>
+        <div class="pub-buttons"><a href="javascript:void(0)" target="_self" onclick="toggleDiv('chao2024jailbreakbench-tldr')">TLDR</a><span class="sep">|</span><a href="https://github.com/JailbreakBench/jailbreakbench">Code</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('chao2024jailbreakbench-bib')">BibTeX</a>
             <div id="chao2024jailbreakbench-tldr" class="pub-hidden">
                 <hr><span class="pub-tldr"><strong>TLDR:</strong> A standardized open benchmark for evaluating jailbreak attacks on large language models with reproducible artifacts and metrics.</span>
             </div>
@@ -473,7 +485,7 @@
     <div class="pub">
         <span class="pub-title"><a href="https://arxiv.org/abs/2309.05610">Privacy Side Channels in Machine Learning Systems</a></span><br>
         <span class="pub-authors"><span class="me">Edoardo Debenedetti</span>, Giorgio Severi, Nicholas Carlini, Christopher A. Choquette-Choo, Matthew Jagielski, Milad Nasr, Eric Wallace, Florian Tramèr</span><br><span class="pub-venue">33rd USENIX Security Symposium</span>
-        <div class="pub-buttons"><a href="https://arxiv.org/abs/2309.05610">Paper</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('debenedetti2024privacy-tldr')">TLDR</a><span class="sep">|</span><a href="https://twitter.com/florian_tramer/status/1703780336398692530">Twitter</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('debenedetti2024privacy-bib')">BibTeX</a>
+        <div class="pub-buttons"><a href="javascript:void(0)" target="_self" onclick="toggleDiv('debenedetti2024privacy-tldr')">TLDR</a><span class="sep">|</span><a href="https://twitter.com/florian_tramer/status/1703780336398692530">Twitter</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('debenedetti2024privacy-bib')">BibTeX</a>
             <div id="debenedetti2024privacy-tldr" class="pub-hidden">
                 <hr><span class="pub-tldr"><strong>TLDR:</strong> Privacy side channels in ML systems can completely invalidate differential privacy guarantees and enable novel data extraction attacks.</span>
             </div>
@@ -501,7 +513,7 @@
     <div class="pub">
         <span class="pub-title"><a href="https://arxiv.org/abs/2010.09670">RobustBench: a standardized adversarial robustness benchmark</a></span><br>
         <span class="pub-authors">Francesco Croce*, Maksym Andriushchenko*, Vikash Sehwag*, <span class="me">Edoardo Debenedetti*</span>, Nicolas Flammarion, Mung Chiang, Prateek Mittal, Matthias Hein</span> <span class="pub-addendum">(*joint first authors)</span><br><span class="pub-venue">Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track</span>
-        <div class="pub-buttons"><a href="https://arxiv.org/abs/2010.09670">Paper</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('croce2021robustbench-tldr')">TLDR</a><span class="sep">|</span><a href="https://github.com/RobustBench/robustbench">Code</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('croce2021robustbench-bib')">BibTeX</a>
+        <div class="pub-buttons"><a href="javascript:void(0)" target="_self" onclick="toggleDiv('croce2021robustbench-tldr')">TLDR</a><span class="sep">|</span><a href="https://github.com/RobustBench/robustbench">Code</a><span class="sep">|</span><a href="javascript:void(0)" target="_self" onclick="toggleDiv('croce2021robustbench-bib')">BibTeX</a>
             <div id="croce2021robustbench-tldr" class="pub-hidden">
                 <hr><span class="pub-tldr"><strong>TLDR:</strong> A standardized benchmark and leaderboard for evaluating adversarial robustness of machine learning models.</span>
             </div>
@@ -530,12 +542,17 @@
     </div>
 
     <div class="section">
-        <h2>Press</h2>
+        <h2>Press and Blog Coverage</h2>
         <ul class="press-list">
             <li><strong>The Economist</strong> — <a href="https://www.economist.com/science-and-technology/2025/09/22/why-ai-systems-might-never-be-secure">"Why AI systems might never be secure"</a>, September 2025</li>
             <li><strong>Ars Technica</strong> — <a href="https://arstechnica.com/information-technology/2025/04/researchers-claim-breakthrough-in-fight-against-ais-frustrating-security-hole/">"Researchers claim breakthrough in fight against AI's frustrating security hole"</a>, April 2025</li>
             <li><strong>MIT Technology Review</strong> — <a href="https://www.technologyreview.com/2025/04/04/1114228/cyberattacks-by-ai-agents-are-coming/">"Cyberattacks by AI agents are coming"</a>, April 2025</li>
+            <li><strong>Simon Willison's Weblog</strong> — <a href="https://simonwillison.net/2025/Apr/11/camel/">"CaMeL offers a promising new approach to stopping prompt injection attacks"</a>, April 2025</li>
         </ul>
     </div>
+
+    <footer>
+        Last updated: March 2026
+    </footer>
 </body>
 </html>
