@@ -189,12 +189,6 @@ def build():
             elif f.is_dir():
                 shutil.copytree(f, BUILD_DIR / f.name, dirs_exist_ok=True)
 
-    # Copy CV from cv repo if available
-    cv_src = CV_DIR / "cv.pdf"
-    if cv_src.exists():
-        (BUILD_DIR / "files").mkdir(exist_ok=True)
-        shutil.copy2(cv_src, BUILD_DIR / "files" / "cv.pdf")
-
     # Copy avatar
     avatar_src = ROOT / "avatar.jpeg"
     if avatar_src.exists():
